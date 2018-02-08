@@ -1,0 +1,4400 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Simple Follow</h:title>
+    <model>
+      <instance>
+        <data id="build_Simple-Follow_1518091971">
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+          <setup_follow>
+            <start_time_date/>
+            <orangutan_name/>
+            <Infant_name/>
+            <observer_1/>
+            <observer_2/>
+            <observer_3/>
+            <follow_type/>
+          </setup_follow>
+          <observation jr:template="">
+            <date/>
+            <time_start/>
+            <location>
+              <location_automatic/>
+              <latitude_manual/>
+              <longitude_manual/>
+            </location>
+            <primary_activity/>
+            <secondary_activity/>
+            <species_eaten/>
+            <height/>
+            <distance/>
+            <party_size/>
+            <notes/>
+            <time_end/>
+          </observation>
+          <device_id/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/setup_follow:label">
+            <value>Setup a follow</value>
+          </text>
+          <text id="/data/setup_follow/start_time_date:label">
+            <value>Start Time and Date</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:label">
+            <value>Orangutan Name</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option0">
+            <value>ADF290409</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option1">
+            <value>ADM130909</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option2">
+            <value>ADOLESCENT  FEMALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option3">
+            <value>ADOLESCENT  MALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option4">
+            <value>ADULT  FEMALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option5">
+            <value>Alonso</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option6">
+            <value>Alui</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option7">
+            <value>Amazon</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option8">
+            <value>Apollo</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option9">
+            <value>Archimedes</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option10">
+            <value>Archimedes  3</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option11">
+            <value>Archimedes  4</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option12">
+            <value>Aristotle</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option13">
+            <value>Aya</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option14">
+            <value>Baldur</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option15">
+            <value>Barita</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option16">
+            <value>Beethoven</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option17">
+            <value>Bengy  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option18">
+            <value>Bengy  - unflanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option19">
+            <value>Bengy  1</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option20">
+            <value>Bengy  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option21">
+            <value>Bengy  3</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option22">
+            <value>Bengy  4</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option23">
+            <value>Bengy  5</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option24">
+            <value>Benjol</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option25">
+            <value>Chopin</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option26">
+            <value>Claudius</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option27">
+            <value>Cleo  + Chivers</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option28">
+            <value>Cleo  + Chuck</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option29">
+            <value>Cleo  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option30">
+            <value>Cleo  3</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option31">
+            <value>Cleopatra</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option32">
+            <value>D</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option33">
+            <value>Doyle</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option34">
+            <value>Drake</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option35">
+            <value>Einstein</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option36">
+            <value>Einstein  (Orson)</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option37">
+            <value>Ella</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option38">
+            <value>Ella  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option39">
+            <value>Eosah</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option40">
+            <value>Feb  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option41">
+            <value>Feb  - adult</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option42">
+            <value>Feb  + Fio</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option43">
+            <value>Fenser</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option44">
+            <value>FLANGED  MALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option45">
+            <value>FM061206</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option46">
+            <value>FM061212</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option47">
+            <value>FM0701</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option48">
+            <value>FM070110</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option49">
+            <value>FM070113</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option50">
+            <value>FM090512</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option51">
+            <value>FM091112</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option52">
+            <value>FM101013</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option53">
+            <value>FM110213</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option54">
+            <value>FM1106</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option55">
+            <value>FM120411</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option56">
+            <value>FM1302</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option57">
+            <value>FM1706</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option58">
+            <value>FM191012</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option59">
+            <value>FM2203</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option60">
+            <value>FM220311</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option61">
+            <value>FM221212</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option62">
+            <value>FM23012013</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option63">
+            <value>FM230311</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option64">
+            <value>FM2311</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option65">
+            <value>FM240208</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option66">
+            <value>FM2507</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option67">
+            <value>Fossey</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option68">
+            <value>Franky</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option69">
+            <value>Galileo</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option70">
+            <value>Geminus</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option71">
+            <value>Genghis</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option72">
+            <value>Georgia  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option73">
+            <value>Goliath</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option74">
+            <value>Goliath2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option75">
+            <value>Gollum</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option76">
+            <value>Golly</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option77">
+            <value>Gracia</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option78">
+            <value>Gracia  + Gara</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option79">
+            <value>Gracia  + Georgia</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option80">
+            <value>Gracia  + Gretel</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option81">
+            <value>Gretel  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option82">
+            <value>Hades</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option83">
+            <value>Hades  flanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option84">
+            <value>Hamlet</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option85">
+            <value>Hannibal</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option86">
+            <value>Hector</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option87">
+            <value>Hengky</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option88">
+            <value>Hengky  - Injured</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option89">
+            <value>Henry</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option90">
+            <value>Indah</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option91">
+            <value>Indah  + Ima</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option92">
+            <value>Indah  + Indy</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option93">
+            <value>Indah  + Isabella</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option94">
+            <value>Indah  + unnamed infant</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option95">
+            <value>Indy  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option96">
+            <value>Indy  - adult</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option97">
+            <value>Indy  + Icarus</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option98">
+            <value>Isabella  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option99">
+            <value>Janus</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option100">
+            <value>Juliet</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option101">
+            <value>Juno</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option102">
+            <value>Jupiter</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option103">
+            <value>Kandil</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option104">
+            <value>Kay</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option105">
+            <value>Kay  Fanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option106">
+            <value>Keto</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option107">
+            <value>Kino</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option108">
+            <value>Leonardo  - flanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option109">
+            <value>Leonardo  - unflanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option110">
+            <value>Leony</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option111">
+            <value>Leto</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option112">
+            <value>Lipstik</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option113">
+            <value>Lipstik  + Lenard</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option114">
+            <value>Louis</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option115">
+            <value>Marvin</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option116">
+            <value>Mozart  - flanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option117">
+            <value>Mozart  - unflanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option118">
+            <value>Napoleon</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option119">
+            <value>Neptune</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option120">
+            <value>Nero</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option121">
+            <value>Newton</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option122">
+            <value>NLF030206</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option123">
+            <value>Nugget</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option124">
+            <value>Oberon</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option125">
+            <value>Oscar</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option126">
+            <value>Othello</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option127">
+            <value>Peter  Pan</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option128">
+            <value>Picasso</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option129">
+            <value>Picasso  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option130">
+            <value>Pluto</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option131">
+            <value>Potret</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option132">
+            <value>Qu</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option133">
+            <value>Richard</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option134">
+            <value>Romeo</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option135">
+            <value>Romeo  FL</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option136">
+            <value>SAF041112</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option137">
+            <value>SAF110913</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option138">
+            <value>SAF130414</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option139">
+            <value>SAF130909</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option140">
+            <value>SAF231107</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option141">
+            <value>SAF231211</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option142">
+            <value>Salvador</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option143">
+            <value>Salvador  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option144">
+            <value>Shima</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option145">
+            <value>Shogun</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option146">
+            <value>t</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option147">
+            <value>Teresia</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option148">
+            <value>Teresia  + Timi</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option149">
+            <value>Teresia  + Trevor</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option150">
+            <value>Teslor</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option151">
+            <value>Thor</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option152">
+            <value>Thor  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option153">
+            <value>Timi  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option154">
+            <value>Timi  - adult</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option155">
+            <value>Titan</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option156">
+            <value>Tyson</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option157">
+            <value>UFM050511</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option158">
+            <value>UFM060209</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option159">
+            <value>UFM061013</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option160">
+            <value>UFM070311</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option161">
+            <value>UFM070912</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option162">
+            <value>UFM130212</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option163">
+            <value>UFM140710</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option164">
+            <value>UFM161205</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option165">
+            <value>UFM200306</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option166">
+            <value>UFM230710</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option167">
+            <value>UFM281104</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option168">
+            <value>Ulysses</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option169">
+            <value>UN0307</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option170">
+            <value>UN0704</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option171">
+            <value>UN200809</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option172">
+            <value>UN290409</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option173">
+            <value>UNFLANGED  MALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option174">
+            <value>UNKNOWN  INDIVIDUAL</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option175">
+            <value>Urigella</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option176">
+            <value>Victor</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option177">
+            <value>Viola</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option178">
+            <value>Vulkan</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option179">
+            <value>Wallace</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option180">
+            <value>Warhol</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option181">
+            <value>Wilberforce</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option182">
+            <value>Willow</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option183">
+            <value>Willow  + Wally</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option184">
+            <value>Willow  + Warrior</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option185">
+            <value>Willow  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option186">
+            <value>Winston  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option187">
+            <value>Winston  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option188">
+            <value>Wizard</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option189">
+            <value>Xylon</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option190">
+            <value>Yana</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option191">
+            <value>Zeus  flanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option192">
+            <value>Zeus  unflanged</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:label">
+            <value>Infant name</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option0">
+            <value>Bintan - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option1">
+            <value>Chivers  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option2">
+            <value>Chuck  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option3">
+            <value>Fio  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option4">
+            <value>Gara</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option5">
+            <value>Georgia  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option6">
+            <value>Gretel  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option7">
+            <value>Icarus  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option8">
+            <value>Ima  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option9">
+            <value>Indy  - Infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option10">
+            <value>Isabella  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option11">
+            <value>Joy</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option12">
+            <value>Lenard</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option13">
+            <value>NONE</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option14">
+            <value>Timi  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option15">
+            <value>Trevor  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option16">
+            <value>Unnamed  infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option17">
+            <value>Wally</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option18">
+            <value>Warrior</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option19">
+            <value>Winston</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option20">
+            <value>Yoko</value>
+          </text>
+          <text id="/data/setup_follow/observer_1:label">
+            <value>Observer one</value>
+          </text>
+          <text id="/data/setup_follow/observer_2:label">
+            <value>Observer two</value>
+          </text>
+          <text id="/data/setup_follow/observer_3:label">
+            <value>Observer three</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:label">
+            <value>Follow Type</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option0">
+            <value>Nest-to-Nest</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option1">
+            <value>Found, to nest</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option2">
+            <value>From nest - lost</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option3">
+            <value>Found, then lost</value>
+          </text>
+          <text id="/data/observation:label">
+            <value>Five Minute Observation</value>
+          </text>
+          <text id="/data/observation/location:label">
+            <value>Location of </value>
+          </text>
+          <text id="/data/observation/location/location_automatic:label">
+            <value>Location</value>
+          </text>
+          <text id="/data/observation/location/latitude_manual:label">
+            <value>Latitude if GPS does not work</value>
+          </text>
+          <text id="/data/observation/location/longitude_manual:label">
+            <value>Longitude manual if GPS does not work</value>
+          </text>
+          <text id="/data/observation/primary_activity:label">
+            <value>Primary Activity</value>
+          </text>
+          <text id="/data/observation/primary_activity:option0">
+            <value>F Feed</value>
+          </text>
+          <text id="/data/observation/primary_activity:option1">
+            <value>R Rest</value>
+          </text>
+          <text id="/data/observation/primary_activity:option2">
+            <value>T Travel</value>
+          </text>
+          <text id="/data/observation/primary_activity:option3">
+            <value>N Nest</value>
+          </text>
+          <text id="/data/observation/primary_activity:option4">
+            <value>S Social</value>
+          </text>
+          <text id="/data/observation/primary_activity:option5">
+            <value>ATO Activities to observer</value>
+          </text>
+          <text id="/data/observation/primary_activity:option6">
+            <value>AOP Activities to other person</value>
+          </text>
+          <text id="/data/observation/primary_activity:option7">
+            <value>FS Food Search</value>
+          </text>
+          <text id="/data/observation/primary_activity:option8">
+            <value>CF Co-Feed</value>
+          </text>
+          <text id="/data/observation/primary_activity:option9">
+            <value>P Play</value>
+          </text>
+          <text id="/data/observation/primary_activity:option10">
+            <value>G Groom</value>
+          </text>
+          <text id="/data/observation/primary_activity:option11">
+            <value>AKI Aktifitas Khusus Induk</value>
+          </text>
+          <text id="/data/observation/primary_activity:option12">
+            <value>V Vocalisation</value>
+          </text>
+          <text id="/data/observation/primary_activity:option13">
+            <value>DU Defikasi/Urinasi</value>
+          </text>
+          <text id="/data/observation/primary_activity:option14">
+            <value>MO Manipulating Object</value>
+          </text>
+          <text id="/data/observation/primary_activity:option15">
+            <value>ME Medication</value>
+          </text>
+          <text id="/data/observation/primary_activity:option16">
+            <value>GB Giving Birth</value>
+          </text>
+          <text id="/data/observation/primary_activity:option17">
+            <value>U Unknown</value>
+          </text>
+          <text id="/data/observation/primary_activity:option18">
+            <value>L Lost</value>
+          </text>
+          <text id="/data/observation/primary_activity:option19">
+            <value>O Other</value>
+          </text>
+          <text id="/data/observation/primary_activity:option20">
+            <value>ATA Activities to other animal</value>
+          </text>
+          <text id="/data/observation/secondary_activity:label">
+            <value>Secondary Activity</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option0">
+            <value>o other</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option1">
+            <value>fr/s fruit seed</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option2">
+            <value>fr/w fruit whole</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option3">
+            <value>fr/u fruit unknown part</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option4">
+            <value>fr/sk fruit skin</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option5">
+            <value>fr/p fruit pulp</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option6">
+            <value>fr/p/s fruit pulp seed</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option7">
+            <value>fr/p/sk fruit pulp skin</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option8">
+            <value>fum/s unripe fruit seed</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option9">
+            <value>fum/w unripe fruit whole</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option10">
+            <value>fum/u unripe fruit unknown part</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option11">
+            <value>fum/sk unripe fruit skin</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option12">
+            <value>fum/p unripe fruit pulp</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option13">
+            <value>fum/p/s unripe fruit pulp seed</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option14">
+            <value>fum/p/sk unripe fruit pulp skin</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option15">
+            <value>l Leaves</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option16">
+            <value>ls Leaf Shoots</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option17">
+            <value>e Epiphytes</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option18">
+            <value>pr Pith of rattan</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option19">
+            <value>ppn Pith of pandan</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option20">
+            <value>pi Pith - other</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option21">
+            <value>pls Pith of Liana Stem</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option22">
+            <value>pbr Pith of branch</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option23">
+            <value>fl Flowers</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option24">
+            <value>flb Flower buds</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option25">
+            <value>rt Roots</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option26">
+            <value>b Bark</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option27">
+            <value>iv Invertebrates</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option28">
+            <value>hy Honey</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option29">
+            <value>fg Fungi</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option30">
+            <value>w Water</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option31">
+            <value>sl Soil</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option32">
+            <value>sap Sap </value>
+          </text>
+          <text id="/data/observation/secondary_activity:option33">
+            <value>m meat</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option34">
+            <value>rw Rotten Wood</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option35">
+            <value>uf Unknown Food</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option36">
+            <value>nn/nen Build New Night Nest</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option37">
+            <value>dn/nen Build New Day Nest</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option38">
+            <value>nn/rb Rebuild Nest / Night</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option39">
+            <value>dn/rb Rebuild Nest / Day</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option40">
+            <value>dn/ru Reuse Nest / Day</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option41">
+            <value>dn/ru Reuse Nest / Night</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option42">
+            <value>ma/frs Mating-female resist</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option43">
+            <value>sv Sex investigate</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option44">
+            <value>mi Mating Invitation</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option45">
+            <value>ma/con Mating-female consent</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option46">
+            <value>cat Copulation attempt</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option47">
+            <value>nach Male chasing female (non-ag-chase)</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option48">
+            <value>tc Touch</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option49">
+            <value>cy Cry</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option50">
+            <value>grbl Grumble</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option51">
+            <value>gork Gorkum</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option52">
+            <value>grph Grumph</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option53">
+            <value>ks/grnt Grunt</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option54">
+            <value>lk Lork</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option55">
+            <value>vo Other vocalisation</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option56">
+            <value>wc Watch</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option57">
+            <value>fe Flee</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option58">
+            <value>lc Long Call</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option59">
+            <value>ig Ignore</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option60">
+            <value>sb Submissive</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option61">
+            <value>act Aggressive Contact / Fighting</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option62">
+            <value>ach Aggressive Chase</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option63">
+            <value>aks Aggressive Kiss-squeak</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option64">
+            <value>asc Aggressive Snag-crashing</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option65">
+            <value>abb Aggressive Branch Breaking</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option66">
+            <value>ksto Kiss-squeak to Observer</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option67">
+            <value>ksta Kiss-squeak to other animal</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option68">
+            <value>thto Branch-breaking to Observer</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option69">
+            <value>ri Retrieve infant</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option70">
+            <value>wait wait for infant</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option71">
+            <value>bd Bridging</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option72">
+            <value>gf Give food to infant</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option73">
+            <value>fsh Food-share</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option74">
+            <value>beg Begging (social or from observer) </value>
+          </text>
+          <text id="/data/observation/secondary_activity:option75">
+            <value>oou Observe other orangutan</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option76">
+            <value>oop Observe observer</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option77">
+            <value>ooa Observe other animal</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option78">
+            <value>ft Try food</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option79">
+            <value>rf Receive food</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option80">
+            <value>tft Tolerated food-theft</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option81">
+            <value>ntft Non-tolerated food-theft</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option82">
+            <value>tt Travelling Treesway</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option83">
+            <value>br Travelling Brachiating</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option84">
+            <value>cla Travelling Clambering</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option85">
+            <value>cli Travelling Climbing</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option86">
+            <value>qw Travelling Quadrupedal Walking</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option87">
+            <value>bi Travelling Bipedal Walking</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option88">
+            <value>si/tr Rest Sit in Tree</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option89">
+            <value>si/n Rest Sit in Nest</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option90">
+            <value>si/g Rest Sit on Ground</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option91">
+            <value>q/tr Rest Quadrupedal on Tree</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option92">
+            <value>q/n Rest Quadrupedal on Nest</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option93">
+            <value>q/g Rest Quadrupedal on Ground</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option94">
+            <value>st/tr Rest Stand on Tree</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option95">
+            <value>st/n Rest Stand on Nest</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option96">
+            <value>st/g Rest Stand on Ground</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option97">
+            <value>ld/tr Rest Lying down on Tree</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option98">
+            <value>ld/n Rest Lying down on Nest</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option99">
+            <value>ld/g Rest Lying down on Ground</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option100">
+            <value>ha/tr Rest hanging on tree</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option101">
+            <value>ha/li Rest hanging on liana</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option102">
+            <value>fur Fur-rubbing</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option103">
+            <value>sg Self-groom</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option104">
+            <value>ga/m Groom mother</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option105">
+            <value>ga/o Groom offspring</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option106">
+            <value>ga/in Groom other infant</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option107">
+            <value>ga/a Groom other adult</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option108">
+            <value>ga/aj Groom other adolescent</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option109">
+            <value>ga Groom unknown</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option110">
+            <value>gr/m Groomed by mother</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option111">
+            <value>gr/o Groomed by offspring</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option112">
+            <value>gr/in Groomed by other infant</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option113">
+            <value>gr/a Groomed by other adult</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option114">
+            <value>gr/aj Groomed by other adolescent</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option115">
+            <value>gr Groomed by unknown</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option116">
+            <value>ag/m Allogroom with mother</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option117">
+            <value>ag/o Allogroom with offspring</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option118">
+            <value>ag/in Allogroom with other infant</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option119">
+            <value>ag/a Allogroom with other adult</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option120">
+            <value>ag/aj Allogroom with other adolescent</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option121">
+            <value>ag Allogroom with unknown</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option122">
+            <value>pl/m Play with mother</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option123">
+            <value>pl/o Play with offspring</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option124">
+            <value>pl/in Play with other infant</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option125">
+            <value>pl/a Play with other adult</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option126">
+            <value>pl/aj Play with other adolescent</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option127">
+            <value>pl Play with unknown</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option128">
+            <value>ips Independent play swinging</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option129">
+            <value>ipo Independent play object</value>
+          </text>
+          <text id="/data/observation/secondary_activity:option130">
+            <value>U Unknown</value>
+          </text>
+          <text id="/data/observation/species_eaten:label">
+            <value>Species Eaten</value>
+          </text>
+          <text id="/data/observation/species_eaten:option0">
+            <value>Aci</value>
+          </text>
+          <text id="/data/observation/species_eaten:option1">
+            <value>Akar Gerising</value>
+          </text>
+          <text id="/data/observation/species_eaten:option2">
+            <value>Alulup</value>
+          </text>
+          <text id="/data/observation/species_eaten:option3">
+            <value>Andrea Andrea (first)</value>
+          </text>
+          <text id="/data/observation/species_eaten:option4">
+            <value>Anggrek</value>
+          </text>
+          <text id="/data/observation/species_eaten:option5">
+            <value>Anggrek bawang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option6">
+            <value>Anggrek rangau</value>
+          </text>
+          <text id="/data/observation/species_eaten:option7">
+            <value>Anggrek Tanduk Rusa</value>
+          </text>
+          <text id="/data/observation/species_eaten:option8">
+            <value>Arang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option9">
+            <value>Bajakah Tabari</value>
+          </text>
+          <text id="/data/observation/species_eaten:option10">
+            <value>Bajakah Tapuser</value>
+          </text>
+          <text id="/data/observation/species_eaten:option11">
+            <value>Bangkuang Napu</value>
+          </text>
+          <text id="/data/observation/species_eaten:option12">
+            <value>Bintan - Peter Peter</value>
+          </text>
+          <text id="/data/observation/species_eaten:option13">
+            <value>Bintan rambut merah</value>
+          </text>
+          <text id="/data/observation/species_eaten:option14">
+            <value>Birds' eggs</value>
+          </text>
+          <text id="/data/observation/species_eaten:option15">
+            <value>Blawan Punai</value>
+          </text>
+          <text id="/data/observation/species_eaten:option16">
+            <value>Blawan Putih</value>
+          </text>
+          <text id="/data/observation/species_eaten:option17">
+            <value>Brania Himba</value>
+          </text>
+          <text id="/data/observation/species_eaten:option18">
+            <value>Dawat (Tampohot)</value>
+          </text>
+          <text id="/data/observation/species_eaten:option19">
+            <value>Ehang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option20">
+            <value>Epiphyte</value>
+          </text>
+          <text id="/data/observation/species_eaten:option21">
+            <value>Epiphyte - pahakung</value>
+          </text>
+          <text id="/data/observation/species_eaten:option22">
+            <value>Epiphyte A</value>
+          </text>
+          <text id="/data/observation/species_eaten:option23">
+            <value>Epiphyte Akar Kecil</value>
+          </text>
+          <text id="/data/observation/species_eaten:option24">
+            <value>Epiphyte Aman</value>
+          </text>
+          <text id="/data/observation/species_eaten:option25">
+            <value>Epiphyte Thick Leaf</value>
+          </text>
+          <text id="/data/observation/species_eaten:option26">
+            <value>Fig - Species 1</value>
+          </text>
+          <text id="/data/observation/species_eaten:option27">
+            <value>Fig - Species 2</value>
+          </text>
+          <text id="/data/observation/species_eaten:option28">
+            <value>Fig - Species 4</value>
+          </text>
+          <text id="/data/observation/species_eaten:option29">
+            <value>Fig - Species 4 Kuning</value>
+          </text>
+          <text id="/data/observation/species_eaten:option30">
+            <value>Fig - Species 5</value>
+          </text>
+          <text id="/data/observation/species_eaten:option31">
+            <value>Fig - Species 6</value>
+          </text>
+          <text id="/data/observation/species_eaten:option32">
+            <value>Fig - unknown sp.</value>
+          </text>
+          <text id="/data/observation/species_eaten:option33">
+            <value>Fungi</value>
+          </text>
+          <text id="/data/observation/species_eaten:option34">
+            <value>Fungi - Kulat bango</value>
+          </text>
+          <text id="/data/observation/species_eaten:option35">
+            <value>Gandis</value>
+          </text>
+          <text id="/data/observation/species_eaten:option36">
+            <value>Gantalan / Manggis September</value>
+          </text>
+          <text id="/data/observation/species_eaten:option37">
+            <value>Geronggang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option38">
+            <value>Gulung Haduk</value>
+          </text>
+          <text id="/data/observation/species_eaten:option39">
+            <value>Hampuak Galaget</value>
+          </text>
+          <text id="/data/observation/species_eaten:option40">
+            <value>Hangkang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option41">
+            <value>Hengky A</value>
+          </text>
+          <text id="/data/observation/species_eaten:option42">
+            <value>Honey</value>
+          </text>
+          <text id="/data/observation/species_eaten:option43">
+            <value>Invertebrates - ants</value>
+          </text>
+          <text id="/data/observation/species_eaten:option44">
+            <value>Invertebrates - bees</value>
+          </text>
+          <text id="/data/observation/species_eaten:option45">
+            <value>Invertebrates - caterpillars</value>
+          </text>
+          <text id="/data/observation/species_eaten:option46">
+            <value>Invertebrates - termites from ball nest</value>
+          </text>
+          <text id="/data/observation/species_eaten:option47">
+            <value>Invertebrates - termites from rotten wood</value>
+          </text>
+          <text id="/data/observation/species_eaten:option48">
+            <value>Invertebrates - unknown</value>
+          </text>
+          <text id="/data/observation/species_eaten:option49">
+            <value>Invertebrates - Wasps</value>
+          </text>
+          <text id="/data/observation/species_eaten:option50">
+            <value>Irat</value>
+          </text>
+          <text id="/data/observation/species_eaten:option51">
+            <value>Jambu Burung 0/2</value>
+          </text>
+          <text id="/data/observation/species_eaten:option52">
+            <value>Jambu Jambu 4</value>
+          </text>
+          <text id="/data/observation/species_eaten:option53">
+            <value>Jambu Jambu May</value>
+          </text>
+          <text id="/data/observation/species_eaten:option54">
+            <value>Jambu Jambu UN</value>
+          </text>
+          <text id="/data/observation/species_eaten:option55">
+            <value>Jangkang Kuning</value>
+          </text>
+          <text id="/data/observation/species_eaten:option56">
+            <value>Jelutong</value>
+          </text>
+          <text id="/data/observation/species_eaten:option57">
+            <value>Jinjit / Bintangor</value>
+          </text>
+          <text id="/data/observation/species_eaten:option58">
+            <value>Kacang Nyaring</value>
+          </text>
+          <text id="/data/observation/species_eaten:option59">
+            <value>Kajalaki</value>
+          </text>
+          <text id="/data/observation/species_eaten:option60">
+            <value>Kala Pimping Napu</value>
+          </text>
+          <text id="/data/observation/species_eaten:option61">
+            <value>Kalanduyung himba / Blackberry</value>
+          </text>
+          <text id="/data/observation/species_eaten:option62">
+            <value>Kamba Sulan</value>
+          </text>
+          <text id="/data/observation/species_eaten:option63">
+            <value>Kambalitan</value>
+          </text>
+          <text id="/data/observation/species_eaten:option64">
+            <value>Kantong Semar</value>
+          </text>
+          <text id="/data/observation/species_eaten:option65">
+            <value>Kapurnaga</value>
+          </text>
+          <text id="/data/observation/species_eaten:option66">
+            <value>Kapurnaga kalakei</value>
+          </text>
+          <text id="/data/observation/species_eaten:option67">
+            <value>Kapurnaga Laut</value>
+          </text>
+          <text id="/data/observation/species_eaten:option68">
+            <value>Karandau</value>
+          </text>
+          <text id="/data/observation/species_eaten:option69">
+            <value>Katiau</value>
+          </text>
+          <text id="/data/observation/species_eaten:option70">
+            <value>Kayu Bulan</value>
+          </text>
+          <text id="/data/observation/species_eaten:option71">
+            <value>Kayu Cahang (Bintan red hair)</value>
+          </text>
+          <text id="/data/observation/species_eaten:option72">
+            <value>Kayu Lalas Daun Besar</value>
+          </text>
+          <text id="/data/observation/species_eaten:option73">
+            <value>Kayu Lalas Daun Kecil / Helen Helen</value>
+          </text>
+          <text id="/data/observation/species_eaten:option74">
+            <value>Kayu Lalas sp.</value>
+          </text>
+          <text id="/data/observation/species_eaten:option75">
+            <value>Kayu Tulang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option76">
+            <value>Kelumun Biasa</value>
+          </text>
+          <text id="/data/observation/species_eaten:option77">
+            <value>Kelumun Buhis / Rambutan Gundul</value>
+          </text>
+          <text id="/data/observation/species_eaten:option78">
+            <value>Kelumun Leaves</value>
+          </text>
+          <text id="/data/observation/species_eaten:option79">
+            <value>Kempas</value>
+          </text>
+          <text id="/data/observation/species_eaten:option80">
+            <value>Kemuning</value>
+          </text>
+          <text id="/data/observation/species_eaten:option81">
+            <value>Kemuning putih</value>
+          </text>
+          <text id="/data/observation/species_eaten:option82">
+            <value>Kenari</value>
+          </text>
+          <text id="/data/observation/species_eaten:option83">
+            <value>Kenyem Burung</value>
+          </text>
+          <text id="/data/observation/species_eaten:option84">
+            <value>Kerandau Merah</value>
+          </text>
+          <text id="/data/observation/species_eaten:option85">
+            <value>Keranji</value>
+          </text>
+          <text id="/data/observation/species_eaten:option86">
+            <value>Keruing</value>
+          </text>
+          <text id="/data/observation/species_eaten:option87">
+            <value>Kopi Kopi</value>
+          </text>
+          <text id="/data/observation/species_eaten:option88">
+            <value>Leguminosae sp.</value>
+          </text>
+          <text id="/data/observation/species_eaten:option89">
+            <value>Lewang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option90">
+            <value>Liana - Anggur / Oyang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option91">
+            <value>Liana - bajakah balayan / Species 2</value>
+          </text>
+          <text id="/data/observation/species_eaten:option92">
+            <value>Liana - bajakah luaa / Species 1</value>
+          </text>
+          <text id="/data/observation/species_eaten:option93">
+            <value>Liana - bajakah sapahurung</value>
+          </text>
+          <text id="/data/observation/species_eaten:option94">
+            <value>Liana - Bajakah Tabulus</value>
+          </text>
+          <text id="/data/observation/species_eaten:option95">
+            <value>liana - gondrong</value>
+          </text>
+          <text id="/data/observation/species_eaten:option96">
+            <value>Liana - Hijau</value>
+          </text>
+          <text id="/data/observation/species_eaten:option97">
+            <value>Liana - Kalalawit Hitam</value>
+          </text>
+          <text id="/data/observation/species_eaten:option98">
+            <value>Liana - Kalalawit Merah</value>
+          </text>
+          <text id="/data/observation/species_eaten:option99">
+            <value>Liana - Karinat</value>
+          </text>
+          <text id="/data/observation/species_eaten:option100">
+            <value>Liana - Kelanis</value>
+          </text>
+          <text id="/data/observation/species_eaten:option101">
+            <value>Liana - Kelemuhe - Gentianaceae</value>
+          </text>
+          <text id="/data/observation/species_eaten:option102">
+            <value>Liana - Kuning - Menispermaceae</value>
+          </text>
+          <text id="/data/observation/species_eaten:option103">
+            <value>Liana - Lindy</value>
+          </text>
+          <text id="/data/observation/species_eaten:option104">
+            <value>Liana - Oto Oto</value>
+          </text>
+          <text id="/data/observation/species_eaten:option105">
+            <value>Liana - rambutan</value>
+          </text>
+          <text id="/data/observation/species_eaten:option106">
+            <value>Liana - Sonya</value>
+          </text>
+          <text id="/data/observation/species_eaten:option107">
+            <value>Liana - sp. 4 big leaf</value>
+          </text>
+          <text id="/data/observation/species_eaten:option108">
+            <value>Liana - Species 3</value>
+          </text>
+          <text id="/data/observation/species_eaten:option109">
+            <value>Liana - Species 4</value>
+          </text>
+          <text id="/data/observation/species_eaten:option110">
+            <value>Liana - Sumut</value>
+          </text>
+          <text id="/data/observation/species_eaten:option111">
+            <value>Liana - unknown sp.</value>
+          </text>
+          <text id="/data/observation/species_eaten:option112">
+            <value>Liana - Zeri</value>
+          </text>
+          <text id="/data/observation/species_eaten:option113">
+            <value>Liana July 2009</value>
+          </text>
+          <text id="/data/observation/species_eaten:option114">
+            <value>Lilin Lilin</value>
+          </text>
+          <text id="/data/observation/species_eaten:option115">
+            <value>Loting</value>
+          </text>
+          <text id="/data/observation/species_eaten:option116">
+            <value>Lunuk Buhis</value>
+          </text>
+          <text id="/data/observation/species_eaten:option117">
+            <value>Lunuk Bunyer</value>
+          </text>
+          <text id="/data/observation/species_eaten:option118">
+            <value>Lunuk Kuning</value>
+          </text>
+          <text id="/data/observation/species_eaten:option119">
+            <value>Lunuk Punai</value>
+          </text>
+          <text id="/data/observation/species_eaten:option120">
+            <value>Lunuk Sambon / Twenty</value>
+          </text>
+          <text id="/data/observation/species_eaten:option121">
+            <value>Lunuk sp.</value>
+          </text>
+          <text id="/data/observation/species_eaten:option122">
+            <value>Lunuk Tingang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option123">
+            <value>Mahadarah Hitam</value>
+          </text>
+          <text id="/data/observation/species_eaten:option124">
+            <value>Mahadingan</value>
+          </text>
+          <text id="/data/observation/species_eaten:option125">
+            <value>Mahalilis</value>
+          </text>
+          <text id="/data/observation/species_eaten:option126">
+            <value>Malam Malam</value>
+          </text>
+          <text id="/data/observation/species_eaten:option127">
+            <value>Manggis</value>
+          </text>
+          <text id="/data/observation/species_eaten:option128">
+            <value>Manggis Jambu</value>
+          </text>
+          <text id="/data/observation/species_eaten:option129">
+            <value>Mangkinang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option130">
+            <value>Matan Undang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option131">
+            <value>Medang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option132">
+            <value>Medang Limo</value>
+          </text>
+          <text id="/data/observation/species_eaten:option133">
+            <value>Mendarahan Daun Besar</value>
+          </text>
+          <text id="/data/observation/species_eaten:option134">
+            <value>Mendarahan Daun Kecil</value>
+          </text>
+          <text id="/data/observation/species_eaten:option135">
+            <value>Mendarahan Unknown</value>
+          </text>
+          <text id="/data/observation/species_eaten:option136">
+            <value>Mentangor panjang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option137">
+            <value>Mentawa</value>
+          </text>
+          <text id="/data/observation/species_eaten:option138">
+            <value>Meranti</value>
+          </text>
+          <text id="/data/observation/species_eaten:option139">
+            <value>Mertibu</value>
+          </text>
+          <text id="/data/observation/species_eaten:option140">
+            <value>Milas</value>
+          </text>
+          <text id="/data/observation/species_eaten:option141">
+            <value>Moss</value>
+          </text>
+          <text id="/data/observation/species_eaten:option142">
+            <value>Muara bungkang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option143">
+            <value>New Red Fruit</value>
+          </text>
+          <text id="/data/observation/species_eaten:option144">
+            <value>Nonang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option145">
+            <value>Nyatoh Babi</value>
+          </text>
+          <text id="/data/observation/species_eaten:option146">
+            <value>Nyatoh Burung 1</value>
+          </text>
+          <text id="/data/observation/species_eaten:option147">
+            <value>Nyatoh Burung 2</value>
+          </text>
+          <text id="/data/observation/species_eaten:option148">
+            <value>Nyatoh Burung 3</value>
+          </text>
+          <text id="/data/observation/species_eaten:option149">
+            <value>Nyatoh Burung Sept</value>
+          </text>
+          <text id="/data/observation/species_eaten:option150">
+            <value>Nyatoh Burung UN</value>
+          </text>
+          <text id="/data/observation/species_eaten:option151">
+            <value>Nyatoh Gagas</value>
+          </text>
+          <text id="/data/observation/species_eaten:option152">
+            <value>Nyatoh Palanduk</value>
+          </text>
+          <text id="/data/observation/species_eaten:option153">
+            <value>Nyatoh UN</value>
+          </text>
+          <text id="/data/observation/species_eaten:option154">
+            <value>Ochnaceae</value>
+          </text>
+          <text id="/data/observation/species_eaten:option155">
+            <value>Orchid Mozart</value>
+          </text>
+          <text id="/data/observation/species_eaten:option156">
+            <value>Ormosia</value>
+          </text>
+          <text id="/data/observation/species_eaten:option157">
+            <value>Pampaning Bayang Besar</value>
+          </text>
+          <text id="/data/observation/species_eaten:option158">
+            <value>Pampaning Bitik</value>
+          </text>
+          <text id="/data/observation/species_eaten:option159">
+            <value>Pampaning sp.</value>
+          </text>
+          <text id="/data/observation/species_eaten:option160">
+            <value>Pampaning Suling</value>
+          </text>
+          <text id="/data/observation/species_eaten:option161">
+            <value>Panamar Pari</value>
+          </text>
+          <text id="/data/observation/species_eaten:option162">
+            <value>Pandan</value>
+          </text>
+          <text id="/data/observation/species_eaten:option163">
+            <value>Papat Bari</value>
+          </text>
+          <text id="/data/observation/species_eaten:option164">
+            <value>Papong</value>
+          </text>
+          <text id="/data/observation/species_eaten:option165">
+            <value>Patanak</value>
+          </text>
+          <text id="/data/observation/species_eaten:option166">
+            <value>Pisang Pisang Besar</value>
+          </text>
+          <text id="/data/observation/species_eaten:option167">
+            <value>Pisang Pisang Kecil</value>
+          </text>
+          <text id="/data/observation/species_eaten:option168">
+            <value>Pith Shima / Sapahurung</value>
+          </text>
+          <text id="/data/observation/species_eaten:option169">
+            <value>Pneumatophores</value>
+          </text>
+          <text id="/data/observation/species_eaten:option170">
+            <value>Ponak</value>
+          </text>
+          <text id="/data/observation/species_eaten:option171">
+            <value>Prupuk</value>
+          </text>
+          <text id="/data/observation/species_eaten:option172">
+            <value>Prupuk sp.</value>
+          </text>
+          <text id="/data/observation/species_eaten:option173">
+            <value>Pupu Palanduk</value>
+          </text>
+          <text id="/data/observation/species_eaten:option174">
+            <value>Rambai hutan</value>
+          </text>
+          <text id="/data/observation/species_eaten:option175">
+            <value>Rambangun</value>
+          </text>
+          <text id="/data/observation/species_eaten:option176">
+            <value>Rambutan Hutan</value>
+          </text>
+          <text id="/data/observation/species_eaten:option177">
+            <value>Ramin</value>
+          </text>
+          <text id="/data/observation/species_eaten:option178">
+            <value>Rarumpuit</value>
+          </text>
+          <text id="/data/observation/species_eaten:option179">
+            <value>Rasak sp.</value>
+          </text>
+          <text id="/data/observation/species_eaten:option180">
+            <value>Rasau</value>
+          </text>
+          <text id="/data/observation/species_eaten:option181">
+            <value>Rotan / Uey Liling</value>
+          </text>
+          <text id="/data/observation/species_eaten:option182">
+            <value>Sample A</value>
+          </text>
+          <text id="/data/observation/species_eaten:option183">
+            <value>Sample B</value>
+          </text>
+          <text id="/data/observation/species_eaten:option184">
+            <value>Sample C - red berries</value>
+          </text>
+          <text id="/data/observation/species_eaten:option185">
+            <value>Sasendok</value>
+          </text>
+          <text id="/data/observation/species_eaten:option186">
+            <value>Snail Fruit</value>
+          </text>
+          <text id="/data/observation/species_eaten:option187">
+            <value>Sopang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option188">
+            <value>Species Medang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option189">
+            <value>Species Mertibu</value>
+          </text>
+          <text id="/data/observation/species_eaten:option190">
+            <value>Suli Himba / Langkuas</value>
+          </text>
+          <text id="/data/observation/species_eaten:option191">
+            <value>Suli Tulang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option192">
+            <value>Sumpung</value>
+          </text>
+          <text id="/data/observation/species_eaten:option193">
+            <value>Tabaras akar tinggi</value>
+          </text>
+          <text id="/data/observation/species_eaten:option194">
+            <value>Tabaras tdk punya akar / pasir pasir</value>
+          </text>
+          <text id="/data/observation/species_eaten:option195">
+            <value>Tabati himba</value>
+          </text>
+          <text id="/data/observation/species_eaten:option196">
+            <value>Tabati Jambu</value>
+          </text>
+          <text id="/data/observation/species_eaten:option197">
+            <value>Tabati Xanthophyllum</value>
+          </text>
+          <text id="/data/observation/species_eaten:option198">
+            <value>Tabitik</value>
+          </text>
+          <text id="/data/observation/species_eaten:option199">
+            <value>Tabunter</value>
+          </text>
+          <text id="/data/observation/species_eaten:option200">
+            <value>Tagula (Jangkang hijau)</value>
+          </text>
+          <text id="/data/observation/species_eaten:option201">
+            <value>Takal</value>
+          </text>
+          <text id="/data/observation/species_eaten:option202">
+            <value>Takang (sometimes sp. Teras Bamban/Prupuk Keras)</value>
+          </text>
+          <text id="/data/observation/species_eaten:option203">
+            <value>Takurak</value>
+          </text>
+          <text id="/data/observation/species_eaten:option204">
+            <value>Tampang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option205">
+            <value>Tampohot Himba</value>
+          </text>
+          <text id="/data/observation/species_eaten:option206">
+            <value>Tapanggang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option207">
+            <value>Tatumbu / JJ1</value>
+          </text>
+          <text id="/data/observation/species_eaten:option208">
+            <value>Terantang</value>
+          </text>
+          <text id="/data/observation/species_eaten:option209">
+            <value>Teras Bamban (Santiria)</value>
+          </text>
+          <text id="/data/observation/species_eaten:option210">
+            <value>Teras Bamban UN</value>
+          </text>
+          <text id="/data/observation/species_eaten:option211">
+            <value>Teras Nyating</value>
+          </text>
+          <text id="/data/observation/species_eaten:option212">
+            <value>Termites</value>
+          </text>
+          <text id="/data/observation/species_eaten:option213">
+            <value>Tolosong</value>
+          </text>
+          <text id="/data/observation/species_eaten:option214">
+            <value>Tumih</value>
+          </text>
+          <text id="/data/observation/species_eaten:option215">
+            <value>Uey Namei</value>
+          </text>
+          <text id="/data/observation/species_eaten:option216">
+            <value>UNKNOWN BARK</value>
+          </text>
+          <text id="/data/observation/species_eaten:option217">
+            <value>UNKNOWN FLOWERS</value>
+          </text>
+          <text id="/data/observation/species_eaten:option218">
+            <value>UNKNOWN FOOD TYPE</value>
+          </text>
+          <text id="/data/observation/species_eaten:option219">
+            <value>UNKNOWN FRUIT</value>
+          </text>
+          <text id="/data/observation/species_eaten:option220">
+            <value>UNKNOWN LEAVES</value>
+          </text>
+          <text id="/data/observation/species_eaten:option221">
+            <value>UNKNOWN LIANA LEAVES</value>
+          </text>
+          <text id="/data/observation/species_eaten:option222">
+            <value>UNKNOWN LIANA PITH</value>
+          </text>
+          <text id="/data/observation/species_eaten:option223">
+            <value>UNKNOWN PITH</value>
+          </text>
+          <text id="/data/observation/species_eaten:option224">
+            <value>UNKNOWN ROOTS</value>
+          </text>
+          <text id="/data/observation/species_eaten:option225">
+            <value>UNKNOWN SPECIES</value>
+          </text>
+          <text id="/data/observation/species_eaten:option226">
+            <value>unknown tree 40022</value>
+          </text>
+          <text id="/data/observation/species_eaten:option227">
+            <value>Vine</value>
+          </text>
+          <text id="/data/observation/species_eaten:option228">
+            <value>Water</value>
+          </text>
+          <text id="/data/observation/species_eaten:option229">
+            <value>Willughbeia - Liana</value>
+          </text>
+          <text id="/data/observation/height:label">
+            <value>Height</value>
+          </text>
+          <text id="/data/observation/height:option0">
+            <value></value>
+          </text>
+          <text id="/data/observation/distance:label">
+            <value>Distance Travelled</value>
+          </text>
+          <text id="/data/observation/party_size:label">
+            <value>Party Size</value>
+          </text>
+          <text id="/data/observation/notes:label">
+            <value>Notes</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/meta/instanceName" type="string" calculate="${observer_1}"/>
+      <bind nodeset="/data/setup_follow/start_time_date" type="dateTime"/>
+      <bind nodeset="/data/setup_follow/orangutan_name" type="select1" required="true()"/>
+      <bind nodeset="/data/setup_follow/Infant_name" type="select1"/>
+      <bind nodeset="/data/setup_follow/observer_1" type="string" required="true()"/>
+      <bind nodeset="/data/setup_follow/observer_2" type="string"/>
+      <bind nodeset="/data/setup_follow/observer_3" type="string"/>
+      <bind nodeset="/data/setup_follow/follow_type" type="select1"/>
+      <bind nodeset="/data/observation/date" type="date" jr:preload="date" jr:preloadParams="today"/>
+      <bind nodeset="/data/observation/time_start" type="dateTime" jr:preload="timestamp" jr:preloadParams="start"/>
+      <bind nodeset="/data/observation/location/location_automatic" type="geopoint"/>
+      <bind nodeset="/data/observation/location/latitude_manual" type="string"/>
+      <bind nodeset="/data/observation/location/longitude_manual" type="string"/>
+      <bind nodeset="/data/observation/primary_activity" type="select1"/>
+      <bind nodeset="/data/observation/secondary_activity" type="select1"/>
+      <bind nodeset="/data/observation/species_eaten" type="select1"/>
+      <bind nodeset="/data/observation/height" type="select1"/>
+      <bind nodeset="/data/observation/distance" type="int"/>
+      <bind nodeset="/data/observation/party_size" type="int"/>
+      <bind nodeset="/data/observation/notes" type="string"/>
+      <bind nodeset="/data/observation/time_end" type="dateTime" jr:preload="timestamp" jr:preloadParams="end"/>
+      <bind nodeset="/data/device_id" type="string" jr:preload="property" jr:preloadParams="deviceid"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/setup_follow:label')"/>
+      <input ref="/data/setup_follow/start_time_date">
+        <label ref="jr:itext('/data/setup_follow/start_time_date:label')"/>
+      </input>
+      <select1 ref="/data/setup_follow/orangutan_name" appearance="minimal">
+        <label ref="jr:itext('/data/setup_follow/orangutan_name:label')"/>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option0')"/>
+          <value>ADF290409</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option1')"/>
+          <value>ADM130909</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option2')"/>
+          <value>ADOLESCENT_FEMALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option3')"/>
+          <value>ADOLESCENT_MALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option4')"/>
+          <value>ADULT_FEMALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option5')"/>
+          <value>Alonso</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option6')"/>
+          <value>Alui</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option7')"/>
+          <value>Amazon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option8')"/>
+          <value>Apollo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option9')"/>
+          <value>Archimedes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option10')"/>
+          <value>Archimedes_3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option11')"/>
+          <value>Archimedes_4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option12')"/>
+          <value>Aristotle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option13')"/>
+          <value>Aya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option14')"/>
+          <value>Baldur</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option15')"/>
+          <value>Barita</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option16')"/>
+          <value>Beethoven</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option17')"/>
+          <value>Bengy_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option18')"/>
+          <value>Bengy_-_unflanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option19')"/>
+          <value>Bengy_1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option20')"/>
+          <value>Bengy_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option21')"/>
+          <value>Bengy_3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option22')"/>
+          <value>Bengy_4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option23')"/>
+          <value>Bengy_5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option24')"/>
+          <value>Benjol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option25')"/>
+          <value>Chopin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option26')"/>
+          <value>Claudius</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option27')"/>
+          <value>Cleo_and_Chivers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option28')"/>
+          <value>Cleo_and_Chuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option29')"/>
+          <value>Cleo_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option30')"/>
+          <value>Cleo_3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option31')"/>
+          <value>Cleopatra</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option32')"/>
+          <value>D</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option33')"/>
+          <value>Doyle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option34')"/>
+          <value>Drake</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option35')"/>
+          <value>Einstein</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option36')"/>
+          <value>Einstein_Orson</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option37')"/>
+          <value>Ella</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option38')"/>
+          <value>Ella_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option39')"/>
+          <value>Eosah</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option40')"/>
+          <value>Feb_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option41')"/>
+          <value>Feb_-_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option42')"/>
+          <value>Feb_and_Fio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option43')"/>
+          <value>Fenser</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option44')"/>
+          <value>FLANGED_MALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option45')"/>
+          <value>FM061206</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option46')"/>
+          <value>FM061212</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option47')"/>
+          <value>FM0701</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option48')"/>
+          <value>FM070110</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option49')"/>
+          <value>FM070113</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option50')"/>
+          <value>FM090512</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option51')"/>
+          <value>FM091112</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option52')"/>
+          <value>FM101013</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option53')"/>
+          <value>FM110213</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option54')"/>
+          <value>FM1106</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option55')"/>
+          <value>FM120411</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option56')"/>
+          <value>FM1302</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option57')"/>
+          <value>FM1706</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option58')"/>
+          <value>FM191012</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option59')"/>
+          <value>FM2203</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option60')"/>
+          <value>FM220311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option61')"/>
+          <value>FM221212</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option62')"/>
+          <value>FM23012013</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option63')"/>
+          <value>FM230311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option64')"/>
+          <value>FM2311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option65')"/>
+          <value>FM240208</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option66')"/>
+          <value>FM2507</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option67')"/>
+          <value>Fossey</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option68')"/>
+          <value>Franky</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option69')"/>
+          <value>Galileo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option70')"/>
+          <value>Geminus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option71')"/>
+          <value>Genghis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option72')"/>
+          <value>Georgia_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option73')"/>
+          <value>Goliath</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option74')"/>
+          <value>Goliath2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option75')"/>
+          <value>Gollum</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option76')"/>
+          <value>Golly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option77')"/>
+          <value>Gracia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option78')"/>
+          <value>Gracia_and_Gara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option79')"/>
+          <value>Gracia_and_Georgia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option80')"/>
+          <value>Gracia_and_Gretel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option81')"/>
+          <value>Gretel_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option82')"/>
+          <value>Hades</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option83')"/>
+          <value>Hades_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option84')"/>
+          <value>Hamlet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option85')"/>
+          <value>Hannibal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option86')"/>
+          <value>Hector</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option87')"/>
+          <value>Hengky</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option88')"/>
+          <value>Hengky_-_Injured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option89')"/>
+          <value>Henry</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option90')"/>
+          <value>Indah</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option91')"/>
+          <value>Indah_and_Ima</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option92')"/>
+          <value>Indah_and_Indy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option93')"/>
+          <value>Indah_and_Isabella</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option94')"/>
+          <value>Indah_and_unnamed_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option95')"/>
+          <value>Indy_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option96')"/>
+          <value>Indy_-_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option97')"/>
+          <value>Indy_and_Icarus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option98')"/>
+          <value>Isabella_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option99')"/>
+          <value>Janus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option100')"/>
+          <value>Juliet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option101')"/>
+          <value>Juno</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option102')"/>
+          <value>Jupiter</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option103')"/>
+          <value>Kandil</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option104')"/>
+          <value>Kay</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option105')"/>
+          <value>Kay_Fanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option106')"/>
+          <value>Keto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option107')"/>
+          <value>Kino</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option108')"/>
+          <value>Leonardo_-_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option109')"/>
+          <value>Leonardo_-_unflanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option110')"/>
+          <value>Leony</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option111')"/>
+          <value>Leto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option112')"/>
+          <value>Lipstik</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option113')"/>
+          <value>Lipstik_and_Lenard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option114')"/>
+          <value>Louis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option115')"/>
+          <value>Marvin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option116')"/>
+          <value>Mozart_-_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option117')"/>
+          <value>Mozart_-_unflanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option118')"/>
+          <value>Napoleon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option119')"/>
+          <value>Neptune</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option120')"/>
+          <value>Nero</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option121')"/>
+          <value>Newton</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option122')"/>
+          <value>NLF030206</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option123')"/>
+          <value>Nugget</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option124')"/>
+          <value>Oberon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option125')"/>
+          <value>Oscar</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option126')"/>
+          <value>Othello</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option127')"/>
+          <value>Peter_Pan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option128')"/>
+          <value>Picasso</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option129')"/>
+          <value>Picasso_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option130')"/>
+          <value>Pluto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option131')"/>
+          <value>Potret</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option132')"/>
+          <value>Qu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option133')"/>
+          <value>Richard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option134')"/>
+          <value>Romeo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option135')"/>
+          <value>Romeo_FL</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option136')"/>
+          <value>SAF041112</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option137')"/>
+          <value>SAF110913</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option138')"/>
+          <value>SAF130414</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option139')"/>
+          <value>SAF130909</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option140')"/>
+          <value>SAF231107</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option141')"/>
+          <value>SAF231211</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option142')"/>
+          <value>Salvador</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option143')"/>
+          <value>Salvador_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option144')"/>
+          <value>Shima</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option145')"/>
+          <value>Shogun</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option146')"/>
+          <value>t</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option147')"/>
+          <value>Teresia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option148')"/>
+          <value>Teresia_and_Timi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option149')"/>
+          <value>Teresia_and_Trevor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option150')"/>
+          <value>Teslor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option151')"/>
+          <value>Thor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option152')"/>
+          <value>Thor_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option153')"/>
+          <value>Timi_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option154')"/>
+          <value>Timi_-_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option155')"/>
+          <value>Titan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option156')"/>
+          <value>Tyson</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option157')"/>
+          <value>UFM050511</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option158')"/>
+          <value>UFM060209</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option159')"/>
+          <value>UFM061013</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option160')"/>
+          <value>UFM070311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option161')"/>
+          <value>UFM070912</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option162')"/>
+          <value>UFM130212</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option163')"/>
+          <value>UFM140710</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option164')"/>
+          <value>UFM161205</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option165')"/>
+          <value>UFM200306</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option166')"/>
+          <value>UFM230710</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option167')"/>
+          <value>UFM281104</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option168')"/>
+          <value>Ulysses</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option169')"/>
+          <value>UN0307</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option170')"/>
+          <value>UN0704</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option171')"/>
+          <value>UN200809</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option172')"/>
+          <value>UN290409</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option173')"/>
+          <value>UNFLANGED_MALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option174')"/>
+          <value>UNKNOWN_INDIVIDUAL</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option175')"/>
+          <value>Urigella</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option176')"/>
+          <value>Victor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option177')"/>
+          <value>Viola</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option178')"/>
+          <value>Vulkan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option179')"/>
+          <value>Wallace</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option180')"/>
+          <value>Warhol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option181')"/>
+          <value>Wilberforce</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option182')"/>
+          <value>Willow</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option183')"/>
+          <value>Willow_and_Wally</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option184')"/>
+          <value>Willow_and_Warrior</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option185')"/>
+          <value>Willow_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option186')"/>
+          <value>Winston_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option187')"/>
+          <value>Winston_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option188')"/>
+          <value>Wizard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option189')"/>
+          <value>Xylon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option190')"/>
+          <value>Yana</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option191')"/>
+          <value>Zeus_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option192')"/>
+          <value>Zeus_unflanged</value>
+        </item>
+      </select1>
+      <select1 ref="/data/setup_follow/Infant_name" appearance="minimal">
+        <label ref="jr:itext('/data/setup_follow/Infant_name:label')"/>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option0')"/>
+          <value>Bintan_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option1')"/>
+          <value>Chivers_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option2')"/>
+          <value>Chuck_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option3')"/>
+          <value>Fio_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option4')"/>
+          <value>Gara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option5')"/>
+          <value>Georgia_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option6')"/>
+          <value>Gretel_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option7')"/>
+          <value>Icarus_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option8')"/>
+          <value>Ima_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option9')"/>
+          <value>Indy_-_Infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option10')"/>
+          <value>Isabella_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option11')"/>
+          <value>Joy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option12')"/>
+          <value>Lenard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option13')"/>
+          <value>NONE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option14')"/>
+          <value>Timi_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option15')"/>
+          <value>Trevor_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option16')"/>
+          <value>Unnamed_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option17')"/>
+          <value>Wally</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option18')"/>
+          <value>Warrior</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option19')"/>
+          <value>Winston</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option20')"/>
+          <value>Yoko</value>
+        </item>
+      </select1>
+      <input ref="/data/setup_follow/observer_1">
+        <label ref="jr:itext('/data/setup_follow/observer_1:label')"/>
+      </input>
+      <input ref="/data/setup_follow/observer_2">
+        <label ref="jr:itext('/data/setup_follow/observer_2:label')"/>
+      </input>
+      <input ref="/data/setup_follow/observer_3">
+        <label ref="jr:itext('/data/setup_follow/observer_3:label')"/>
+      </input>
+      <select1 ref="/data/setup_follow/follow_type" appearance="minimal">
+        <label ref="jr:itext('/data/setup_follow/follow_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/follow_type:option0')"/>
+          <value>Nest-to-Nest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/follow_type:option1')"/>
+          <value>Found_to_nest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/follow_type:option2')"/>
+          <value>From_nest_lost</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/follow_type:option3')"/>
+          <value>Found_then_lost</value>
+        </item>
+      </select1>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/observation:label')"/>
+      <repeat nodeset="/data/observation">
+        <group appearance="field-list">
+          <label ref="jr:itext('/data/observation/location:label')"/>
+          <input ref="/data/observation/location/location_automatic">
+            <label ref="jr:itext('/data/observation/location/location_automatic:label')"/>
+          </input>
+          <input ref="/data/observation/location/latitude_manual">
+            <label ref="jr:itext('/data/observation/location/latitude_manual:label')"/>
+          </input>
+          <input ref="/data/observation/location/longitude_manual">
+            <label ref="jr:itext('/data/observation/location/longitude_manual:label')"/>
+          </input>
+        </group>
+        <select1 ref="/data/observation/primary_activity" appearance="minimal">
+          <label ref="jr:itext('/data/observation/primary_activity:label')"/>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option0')"/>
+            <value>F</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option1')"/>
+            <value>R</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option2')"/>
+            <value>T</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option3')"/>
+            <value>N</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option4')"/>
+            <value>S</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option5')"/>
+            <value>ATO</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option6')"/>
+            <value>AOP</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option7')"/>
+            <value>FS</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option8')"/>
+            <value>CF</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option9')"/>
+            <value>P</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option10')"/>
+            <value>G</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option11')"/>
+            <value>AKI</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option12')"/>
+            <value>V</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option13')"/>
+            <value>DU</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option14')"/>
+            <value>MO</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option15')"/>
+            <value>ME</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option16')"/>
+            <value>GB</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option17')"/>
+            <value>U</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option18')"/>
+            <value>L</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option19')"/>
+            <value>O</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/primary_activity:option20')"/>
+            <value>ATA</value>
+          </item>
+        </select1>
+        <select1 ref="/data/observation/secondary_activity" appearance="minimal">
+          <label ref="jr:itext('/data/observation/secondary_activity:label')"/>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option0')"/>
+            <value>o</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option1')"/>
+            <value>fr_s</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option2')"/>
+            <value>fr_w</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option3')"/>
+            <value>fr_u</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option4')"/>
+            <value>fr_sk</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option5')"/>
+            <value>fr_p</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option6')"/>
+            <value>fr_p_s</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option7')"/>
+            <value>fr_p_sk</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option8')"/>
+            <value>fum_s</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option9')"/>
+            <value>fum_w</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option10')"/>
+            <value>fum_u</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option11')"/>
+            <value>fum_sk</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option12')"/>
+            <value>fum_p</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option13')"/>
+            <value>fum_p_s</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option14')"/>
+            <value>fum_p_sk</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option15')"/>
+            <value>l</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option16')"/>
+            <value>ls</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option17')"/>
+            <value>e</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option18')"/>
+            <value>pr</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option19')"/>
+            <value>ppn</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option20')"/>
+            <value>pi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option21')"/>
+            <value>pls</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option22')"/>
+            <value>pbr</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option23')"/>
+            <value>fl</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option24')"/>
+            <value>flb</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option25')"/>
+            <value>rt</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option26')"/>
+            <value>b</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option27')"/>
+            <value>iv</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option28')"/>
+            <value>hy</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option29')"/>
+            <value>fg</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option30')"/>
+            <value>w</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option31')"/>
+            <value>sl</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option32')"/>
+            <value>sap</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option33')"/>
+            <value>m</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option34')"/>
+            <value>rw</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option35')"/>
+            <value>uf</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option36')"/>
+            <value>nn_nen</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option37')"/>
+            <value>dn_nen</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option38')"/>
+            <value>nn_rb</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option39')"/>
+            <value>dn_rb</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option40')"/>
+            <value>dn_ru</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option41')"/>
+            <value>dn_ru</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option42')"/>
+            <value>ma_frs</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option43')"/>
+            <value>sv</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option44')"/>
+            <value>mi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option45')"/>
+            <value>ma_con</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option46')"/>
+            <value>cat</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option47')"/>
+            <value>nach</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option48')"/>
+            <value>tc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option49')"/>
+            <value>cy</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option50')"/>
+            <value>grbl</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option51')"/>
+            <value>gork</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option52')"/>
+            <value>grph</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option53')"/>
+            <value>ks_grnt</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option54')"/>
+            <value>lk</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option55')"/>
+            <value>vo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option56')"/>
+            <value>wc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option57')"/>
+            <value>fe</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option58')"/>
+            <value>lc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option59')"/>
+            <value>ig</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option60')"/>
+            <value>sb</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option61')"/>
+            <value>act</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option62')"/>
+            <value>ach</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option63')"/>
+            <value>aks</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option64')"/>
+            <value>asc</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option65')"/>
+            <value>abb</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option66')"/>
+            <value>ksto</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option67')"/>
+            <value>ksta</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option68')"/>
+            <value>thto</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option69')"/>
+            <value>ri</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option70')"/>
+            <value>wait</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option71')"/>
+            <value>bd</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option72')"/>
+            <value>gf</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option73')"/>
+            <value>fsh</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option74')"/>
+            <value>beg</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option75')"/>
+            <value>oou</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option76')"/>
+            <value>oop</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option77')"/>
+            <value>ooa</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option78')"/>
+            <value>ft</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option79')"/>
+            <value>rf</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option80')"/>
+            <value>tft</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option81')"/>
+            <value>ntft</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option82')"/>
+            <value>tt</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option83')"/>
+            <value>br</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option84')"/>
+            <value>cla</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option85')"/>
+            <value>cli</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option86')"/>
+            <value>qw</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option87')"/>
+            <value>bi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option88')"/>
+            <value>si_tr</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option89')"/>
+            <value>si_n</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option90')"/>
+            <value>si_g</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option91')"/>
+            <value>q_tr</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option92')"/>
+            <value>q_n</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option93')"/>
+            <value>q_g</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option94')"/>
+            <value>st_tr</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option95')"/>
+            <value>st_n</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option96')"/>
+            <value>st_g</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option97')"/>
+            <value>ld_tr</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option98')"/>
+            <value>ld_n</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option99')"/>
+            <value>ld_g</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option100')"/>
+            <value>ha_tr</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option101')"/>
+            <value>ha_li</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option102')"/>
+            <value>fur</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option103')"/>
+            <value>sg</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option104')"/>
+            <value>ga_m</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option105')"/>
+            <value>ga_o</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option106')"/>
+            <value>ga_in</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option107')"/>
+            <value>ga_a</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option108')"/>
+            <value>ga_aj</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option109')"/>
+            <value>ga</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option110')"/>
+            <value>gr_m</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option111')"/>
+            <value>gr_o</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option112')"/>
+            <value>gr_in</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option113')"/>
+            <value>gr_a</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option114')"/>
+            <value>gr_aj</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option115')"/>
+            <value>gr</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option116')"/>
+            <value>ag_m</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option117')"/>
+            <value>ag_o</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option118')"/>
+            <value>ag_in</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option119')"/>
+            <value>ag_a</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option120')"/>
+            <value>ag_aj</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option121')"/>
+            <value>ag</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option122')"/>
+            <value>pl_m</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option123')"/>
+            <value>pl_o</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option124')"/>
+            <value>pl_in</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option125')"/>
+            <value>pl_a</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option126')"/>
+            <value>pl_aj</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option127')"/>
+            <value>pl</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option128')"/>
+            <value>ips</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option129')"/>
+            <value>ipo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/secondary_activity:option130')"/>
+            <value>U</value>
+          </item>
+        </select1>
+        <select1 ref="/data/observation/species_eaten" appearance="minimal">
+          <label ref="jr:itext('/data/observation/species_eaten:label')"/>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option0')"/>
+            <value>Aci</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option1')"/>
+            <value>Akar_Gerising</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option2')"/>
+            <value>Alulup</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option3')"/>
+            <value>Andrea_Andrea_first</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option4')"/>
+            <value>Anggrek</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option5')"/>
+            <value>Anggrek_bawang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option6')"/>
+            <value>Anggrek_rangau</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option7')"/>
+            <value>Anggrek_Tanduk_Rusa</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option8')"/>
+            <value>Arang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option9')"/>
+            <value>Bajakah_Tabari</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option10')"/>
+            <value>Bajakah_Tapuser</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option11')"/>
+            <value>Bangkuang_Napu</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option12')"/>
+            <value>Bintan_-_Peter_Peter</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option13')"/>
+            <value>Bintan_rambut_merah</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option14')"/>
+            <value>Birds_eggs</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option15')"/>
+            <value>Blawan_Punai</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option16')"/>
+            <value>Blawan_Putih</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option17')"/>
+            <value>Brania_Himba</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option18')"/>
+            <value>Dawat_Tampohot</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option19')"/>
+            <value>Ehang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option20')"/>
+            <value>Epiphyte</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option21')"/>
+            <value>Epiphyte_-_pahakung</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option22')"/>
+            <value>Epiphyte_A</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option23')"/>
+            <value>Epiphyte_Akar_Kecil</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option24')"/>
+            <value>Epiphyte_Aman</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option25')"/>
+            <value>Epiphyte_Thick_Leaf</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option26')"/>
+            <value>Fig_-_Species_1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option27')"/>
+            <value>Fig_-_Species_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option28')"/>
+            <value>Fig_-_Species_4</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option29')"/>
+            <value>Fig_-_Species_4_Kuning</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option30')"/>
+            <value>Fig_-_Species_5</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option31')"/>
+            <value>Fig_-_Species_6</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option32')"/>
+            <value>Fig_-_unknown_sp.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option33')"/>
+            <value>Fungi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option34')"/>
+            <value>Fungi_-_Kulat_bango</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option35')"/>
+            <value>Gandis</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option36')"/>
+            <value>Gantalan___Manggis_September</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option37')"/>
+            <value>Geronggang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option38')"/>
+            <value>Gulung_Haduk</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option39')"/>
+            <value>Hampuak_Galaget</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option40')"/>
+            <value>Hangkang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option41')"/>
+            <value>Hengky_A</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option42')"/>
+            <value>Honey</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option43')"/>
+            <value>Invertebrates_-_ants</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option44')"/>
+            <value>Invertebrates_-_bees</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option45')"/>
+            <value>Invertebrates_-_caterpillars</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option46')"/>
+            <value>Invertebrates_-_termites_from_ba</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option47')"/>
+            <value>Invertebrates_-_termites_from_ro</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option48')"/>
+            <value>Invertebrates_-_unknown</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option49')"/>
+            <value>Invertebrates_-_Wasps</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option50')"/>
+            <value>Irat</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option51')"/>
+            <value>Jambu_Burung_0_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option52')"/>
+            <value>Jambu_Jambu_4</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option53')"/>
+            <value>Jambu_Jambu_May</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option54')"/>
+            <value>Jambu_Jambu_UN</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option55')"/>
+            <value>Jangkang_Kuning</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option56')"/>
+            <value>Jelutong</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option57')"/>
+            <value>Jinjit___Bintangor</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option58')"/>
+            <value>Kacang_Nyaring</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option59')"/>
+            <value>Kajalaki</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option60')"/>
+            <value>Kala_Pimping_Napu</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option61')"/>
+            <value>Kalanduyung_himba___Blackberry</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option62')"/>
+            <value>Kamba_Sulan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option63')"/>
+            <value>Kambalitan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option64')"/>
+            <value>Kantong_Semar</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option65')"/>
+            <value>Kapurnaga</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option66')"/>
+            <value>Kapurnaga_kalakei</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option67')"/>
+            <value>Kapurnaga_Laut</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option68')"/>
+            <value>Karandau</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option69')"/>
+            <value>Katiau</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option70')"/>
+            <value>Kayu_Bulan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option71')"/>
+            <value>Kayu_Cahang_Bintan_red_hair</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option72')"/>
+            <value>Kayu_Lalas_Daun_Besar</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option73')"/>
+            <value>Kayu_Lalas_Daun_Kecil___Helen_He</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option74')"/>
+            <value>Kayu_Lalas_sp.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option75')"/>
+            <value>Kayu_Tulang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option76')"/>
+            <value>Kelumun_Biasa</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option77')"/>
+            <value>Kelumun_Buhis___Rambutan_Gundul</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option78')"/>
+            <value>Kelumun_Leaves</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option79')"/>
+            <value>Kempas</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option80')"/>
+            <value>Kemuning</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option81')"/>
+            <value>Kemuning_putih</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option82')"/>
+            <value>Kenari</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option83')"/>
+            <value>Kenyem_Burung</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option84')"/>
+            <value>Kerandau_Merah</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option85')"/>
+            <value>Keranji</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option86')"/>
+            <value>Keruing</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option87')"/>
+            <value>Kopi_Kopi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option88')"/>
+            <value>Leguminosae_sp.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option89')"/>
+            <value>Lewang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option90')"/>
+            <value>Liana_-_Anggur___Oyang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option91')"/>
+            <value>Liana_-_bajakah_balayan___Specie</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option92')"/>
+            <value>Liana_-_bajakah_luaa___Species_1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option93')"/>
+            <value>Liana_-_bajakah_sapahurung</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option94')"/>
+            <value>Liana_-_Bajakah_Tabulus</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option95')"/>
+            <value>liana_-_gondrong</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option96')"/>
+            <value>Liana_-_Hijau</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option97')"/>
+            <value>Liana_-_Kalalawit_Hitam</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option98')"/>
+            <value>Liana_-_Kalalawit_Merah</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option99')"/>
+            <value>Liana_-_Karinat</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option100')"/>
+            <value>Liana_-_Kelanis</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option101')"/>
+            <value>Liana_-_Kelemuhe_-_Gentianaceae</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option102')"/>
+            <value>Liana_-_Kuning_-_Menispermaceae</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option103')"/>
+            <value>Liana_-_Lindy</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option104')"/>
+            <value>Liana_-_Oto_Oto</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option105')"/>
+            <value>Liana_-_rambutan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option106')"/>
+            <value>Liana_-_Sonya</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option107')"/>
+            <value>Liana_-_sp._4_big_leaf</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option108')"/>
+            <value>Liana_-_Species_3</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option109')"/>
+            <value>Liana_-_Species_4</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option110')"/>
+            <value>Liana_-_Sumut</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option111')"/>
+            <value>Liana_-_unknown_sp.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option112')"/>
+            <value>Liana_-_Zeri</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option113')"/>
+            <value>Liana_July_2009</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option114')"/>
+            <value>Lilin_Lilin</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option115')"/>
+            <value>Loting</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option116')"/>
+            <value>Lunuk_Buhis</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option117')"/>
+            <value>Lunuk_Bunyer</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option118')"/>
+            <value>Lunuk_Kuning</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option119')"/>
+            <value>Lunuk_Punai</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option120')"/>
+            <value>Lunuk_Sambon___Twenty</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option121')"/>
+            <value>Lunuk_sp.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option122')"/>
+            <value>Lunuk_Tingang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option123')"/>
+            <value>Mahadarah_Hitam</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option124')"/>
+            <value>Mahadingan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option125')"/>
+            <value>Mahalilis</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option126')"/>
+            <value>Malam_Malam</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option127')"/>
+            <value>Manggis</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option128')"/>
+            <value>Manggis_Jambu</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option129')"/>
+            <value>Mangkinang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option130')"/>
+            <value>Matan_Undang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option131')"/>
+            <value>Medang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option132')"/>
+            <value>Medang_Limo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option133')"/>
+            <value>Mendarahan_Daun_Besar</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option134')"/>
+            <value>Mendarahan_Daun_Kecil</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option135')"/>
+            <value>Mendarahan_Unknown</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option136')"/>
+            <value>Mentangor_panjang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option137')"/>
+            <value>Mentawa</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option138')"/>
+            <value>Meranti</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option139')"/>
+            <value>Mertibu</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option140')"/>
+            <value>Milas</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option141')"/>
+            <value>Moss</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option142')"/>
+            <value>Muara_bungkang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option143')"/>
+            <value>New_Red_Fruit</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option144')"/>
+            <value>Nonang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option145')"/>
+            <value>Nyatoh_Babi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option146')"/>
+            <value>Nyatoh_Burung_1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option147')"/>
+            <value>Nyatoh_Burung_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option148')"/>
+            <value>Nyatoh_Burung_3</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option149')"/>
+            <value>Nyatoh_Burung_Sept</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option150')"/>
+            <value>Nyatoh_Burung_UN</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option151')"/>
+            <value>Nyatoh_Gagas</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option152')"/>
+            <value>Nyatoh_Palanduk</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option153')"/>
+            <value>Nyatoh_UN</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option154')"/>
+            <value>Ochnaceae</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option155')"/>
+            <value>Orchid_Mozart</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option156')"/>
+            <value>Ormosia</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option157')"/>
+            <value>Pampaning_Bayang_Besar</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option158')"/>
+            <value>Pampaning_Bitik</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option159')"/>
+            <value>Pampaning_sp.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option160')"/>
+            <value>Pampaning_Suling</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option161')"/>
+            <value>Panamar_Pari</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option162')"/>
+            <value>Pandan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option163')"/>
+            <value>Papat_Bari</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option164')"/>
+            <value>Papong</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option165')"/>
+            <value>Patanak</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option166')"/>
+            <value>Pisang_Pisang_Besar</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option167')"/>
+            <value>Pisang_Pisang_Kecil</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option168')"/>
+            <value>Pith_Shima___Sapahurung</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option169')"/>
+            <value>Pneumatophores</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option170')"/>
+            <value>Ponak</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option171')"/>
+            <value>Prupuk</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option172')"/>
+            <value>Prupuk_sp.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option173')"/>
+            <value>Pupu_Palanduk</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option174')"/>
+            <value>Rambai_hutan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option175')"/>
+            <value>Rambangun</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option176')"/>
+            <value>Rambutan_Hutan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option177')"/>
+            <value>Ramin</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option178')"/>
+            <value>Rarumpuit</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option179')"/>
+            <value>Rasak_sp.</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option180')"/>
+            <value>Rasau</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option181')"/>
+            <value>Rotan___Uey_Liling</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option182')"/>
+            <value>Sample_A</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option183')"/>
+            <value>Sample_B</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option184')"/>
+            <value>Sample_C_-_red_berries</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option185')"/>
+            <value>Sasendok</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option186')"/>
+            <value>Snail_Fruit</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option187')"/>
+            <value>Sopang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option188')"/>
+            <value>Species_Medang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option189')"/>
+            <value>Species_Mertibu</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option190')"/>
+            <value>Suli_Himba___Langkuas</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option191')"/>
+            <value>Suli_Tulang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option192')"/>
+            <value>Sumpung</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option193')"/>
+            <value>Tabaras_akar_tinggi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option194')"/>
+            <value>Tabaras_tdk_punya_akar___pasir_p</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option195')"/>
+            <value>Tabati_himba</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option196')"/>
+            <value>Tabati_Jambu</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option197')"/>
+            <value>Tabati_Xanthophyllum</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option198')"/>
+            <value>Tabitik</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option199')"/>
+            <value>Tabunter</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option200')"/>
+            <value>Tagula_Jangkang_hijau</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option201')"/>
+            <value>Takal</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option202')"/>
+            <value>Takang_sometimes_sp._Teras_Bamba</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option203')"/>
+            <value>Takurak</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option204')"/>
+            <value>Tampang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option205')"/>
+            <value>Tampohot_Himba</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option206')"/>
+            <value>Tapanggang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option207')"/>
+            <value>Tatumbu___JJ1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option208')"/>
+            <value>Terantang</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option209')"/>
+            <value>Teras_Bamban_Santiria</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option210')"/>
+            <value>Teras_Bamban_UN</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option211')"/>
+            <value>Teras_Nyating</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option212')"/>
+            <value>Termites</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option213')"/>
+            <value>Tolosong</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option214')"/>
+            <value>Tumih</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option215')"/>
+            <value>Uey_Namei</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option216')"/>
+            <value>UNKNOWN_BARK</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option217')"/>
+            <value>UNKNOWN_FLOWERS</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option218')"/>
+            <value>UNKNOWN_FOOD_TYPE</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option219')"/>
+            <value>UNKNOWN_FRUIT</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option220')"/>
+            <value>UNKNOWN_LEAVES</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option221')"/>
+            <value>UNKNOWN_LIANA_LEAVES</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option222')"/>
+            <value>UNKNOWN_LIANA_PITH</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option223')"/>
+            <value>UNKNOWN_PITH</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option224')"/>
+            <value>UNKNOWN_ROOTS</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option225')"/>
+            <value>UNKNOWN_SPECIES</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option226')"/>
+            <value>unknown_tree_40022</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option227')"/>
+            <value>Vine</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option228')"/>
+            <value>Water</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/observation/species_eaten:option229')"/>
+            <value>Willughbeia_-_Liana</value>
+          </item>
+        </select1>
+        <select1 ref="/data/observation/height">
+          <label ref="jr:itext('/data/observation/height:label')"/>
+          <item>
+            <label ref="jr:itext('/data/observation/height:option0')"/>
+            <value>untitled</value>
+          </item>
+        </select1>
+        <input ref="/data/observation/distance">
+          <label ref="jr:itext('/data/observation/distance:label')"/>
+        </input>
+        <range ref="/data/observation/party_size" start="1" end="5" step="1" appearance="picker">
+          <label ref="jr:itext('/data/observation/party_size:label')"/>
+        </range>
+        <input ref="/data/observation/notes">
+          <label ref="jr:itext('/data/observation/notes:label')"/>
+        </input>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>
