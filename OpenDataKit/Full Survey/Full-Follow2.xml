@@ -1,0 +1,4341 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Full Follow</h:title>
+    <model>
+      <itext>
+        <translation lang="Indonesian">
+          <text id="/Full-Follow/setup_follow/orangutan_name/Wizard:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM060209:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UNKNOWN_INDIVIDUAL:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Chopin:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Goliath:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Kandil:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FLANGED_MALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Newton:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Salvador_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Nugget:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Eosah:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Timi_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Alui:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Keto:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Kay_Fanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Salvador_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM061013:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Genghis:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Romeo_FL:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Georgia_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Thor:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM060209:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Aristotle:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Kay_Fanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Archimedes_3:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Willow_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/observer_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gollum:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF130909:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah_and_Isabella:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gracia:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Einstein_Orson:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Fio_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Vulkan:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Claudius:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Drake:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Leonardo_-_unflanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_1:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Kino:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Baldur:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Leonardo_-_unflanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Doyle:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM161205:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Teslor:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM2507:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM091112:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Titan:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Picasso:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hamlet:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gracia_and_Gretel:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Henry:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Feb_and_Fio:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Lipstik:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM240208:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Leto:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Franky:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM090512:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleopatra:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Winston_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UN0704:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF130909:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADF290409:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Wally:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Teresia_and_Timi:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Wilberforce:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Jupiter:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Warrior:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Isabella_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Urigella:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gracia_and_Gretel:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Benjol:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Georgia_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Wizard:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Fenser:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Ulysses:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Romeo:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Leonardo_-_flanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Xylon:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hector:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleo_3:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/observer_1:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Neptune:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Marvin:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM191012:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Feb_-_adult:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM070110:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indy_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Fossey:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Romeo_FL:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM221212:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Zeus_unflanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM070110:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Napoleon:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Wallace:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM200306:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hengky_-_Injured:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF130414:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UN0307:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM1302:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM191012:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_4:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Teslor:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Nero:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Unnamed_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/location:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleo_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/location/location_automatic:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM281104:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Picasso_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Genghis:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Feb_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Leonardo_-_flanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM070311:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Archimedes_3:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM2311:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Trevor_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Teresia:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indy_-_adult:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Willow_and_Wally:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM23012013:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/species_eaten:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM110213:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Feb_and_Fio:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Victor:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF231211:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM220311:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Shima:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Oscar:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM050511:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/location/latitude_manual:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Neptune:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Galileo:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleo_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Tyson:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Icarus_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/D:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Juno:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM230710:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM101013:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Ella_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Galileo:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type/Nest-to-Nest:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Feb_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Gretel_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Viola:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah_and_Isabella:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Salvador:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Mozart_-_flanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF231107:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Lipstik:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hannibal:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Winston_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Lipstik_and_Lenard:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type/From_nest_lost:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Henry:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gracia_and_Gara:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Teresia_and_Trevor:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/t:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM1106:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah_and_Indy:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Thor:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indy_-_adult:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Yana:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Oberon:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/start_time_date:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Juliet:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Aya:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADM130909:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gracia:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Leony:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM221212:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Einstein_Orson:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Alonso:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Nugget:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADOLESCENT_MALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UN0704:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Winston:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM240208:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_1:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM091112:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADULT_FEMALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Archimedes:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF041112:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM230311:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/secondary_activity:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM200306:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Geminus:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FLANGED_MALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Othello:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Kay:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Teresia_and_Trevor:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/NLF030206:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Mozart_-_unflanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Chuck_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM230311:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM070912:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Kay:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gracia_and_Gara:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/NONE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Richard:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADOLESCENT_MALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Wilberforce:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UNFLANGED_MALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Keto:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Janus:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indy_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Richard:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Beethoven:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Apollo:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Chopin:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Tyson:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM120411:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Georgia_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM061212:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Urigella:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Fenser:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Apollo:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Ima_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/observer_3:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Timi_-_adult:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Isabella_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Picasso:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM061206:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Aristotle:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM1706:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Vulkan:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UNKNOWN_INDIVIDUAL:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah_and_Ima:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Joy:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Timi_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Ella_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Thor_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM23012013:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Archimedes_4:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UN200809:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM090512:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM161205:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Qu:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleopatra:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gracia_and_Georgia:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_5:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hamlet:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADF290409:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM061206:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Shogun:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Zeus_flanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Mozart_-_flanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM130212:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_5:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Alui:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gretel_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Leto:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Indy_-_Infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_3:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM110213:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Kino:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Archimedes:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF231211:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Ella:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM140710:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah_and_unnamed_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Juno:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UN0307:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Yoko:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM101013:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Titan:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gretel_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Beethoven:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Kandil:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Victor:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah_and_unnamed_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Isabella_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleo_and_Chivers:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM130212:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow:label">
+            <value>mengekori</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Einstein:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Othello:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF041112:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Goliath2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Peter_Pan:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hades_flanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UN290409:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM120411:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Doyle:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hades:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Lipstik_and_Lenard:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Einstein:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADOLESCENT_FEMALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Viola:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Aya:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah_and_Indy:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Louis:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleo_3:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Teresia:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Zeus_flanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Janus:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_-_unflanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Yana:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hector:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM2507:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Willow:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Pluto:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gracia_and_Georgia:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/t:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Ella:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM070113:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Amazon:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Baldur:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_4:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Willow_and_Warrior:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleo_and_Chuck:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM2203:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Shima:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hengky:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM061013:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Winston_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleo_and_Chuck:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Benjol:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM070912:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleo_and_Chivers:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM1302:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM230710:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Mozart_-_unflanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Willow_and_Wally:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/location/longitude_manual:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Thor_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_3:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Willow_and_Warrior:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/height_OU:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/primary_activity:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah_and_Ima:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Warhol:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Leony:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Timi_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM070113:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM140710:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM050511:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADULT_FEMALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Bintan_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Golly:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM0701:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indy_and_Icarus:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Timi_-_adult:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Archimedes_4:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UNFLANGED_MALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Potret:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF130414:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Winston_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM1106:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name:label">
+            <value>bayi</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Jupiter:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF110913:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type/Found_to_nest:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADOLESCENT_FEMALE:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_-_unflanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Goliath:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Peter_Pan:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/D:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Barita:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Louis:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM2311:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Goliath2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indy_and_Icarus:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hades:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Shogun:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_-_adolescent:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Romeo:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Eosah:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Chivers_-_infant:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM281104:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Franky:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF231107:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Teresia_and_Timi:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Juliet:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Willow_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Napoleon:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Drake:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hannibal:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM220311:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Qu:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Barita:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Pluto:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Salvador:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Gara:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Wallace:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM1706:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Oscar:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM070311:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Potret:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Warhol:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Willow:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hengky:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Marvin:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Golly:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Zeus_unflanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Fossey:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF110913:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Picasso_2:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UN200809:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type/Found_then_lost:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hades_flanged:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADM130909:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gollum:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM061212:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Feb_-_adult:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Nero:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Oberon:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Alonso:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Geminus:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UN290409:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Claudius:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Lenard:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hengky_-_Injured:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM0701:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/NLF030206:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Ulysses:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM2203:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Amazon:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Xylon:label">
+            <value>-</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Newton:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="English">
+          <text id="/Full-Follow/setup_follow/orangutan_name/Wizard:label">
+            <value>Wizard</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM060209:label">
+            <value>UFM060209</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UNKNOWN_INDIVIDUAL:label">
+            <value>UNKNOWN  INDIVIDUAL</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Chopin:label">
+            <value>Chopin</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Goliath:label">
+            <value>Goliath</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Kandil:label">
+            <value>Kandil</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FLANGED_MALE:label">
+            <value>FLANGED  MALE</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Newton:label">
+            <value>Newton</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Salvador_2:label">
+            <value>Salvador  2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Nugget:label">
+            <value>Nugget</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Eosah:label">
+            <value>Eosah</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Timi_-_adolescent:label">
+            <value>Timi  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Alui:label">
+            <value>Alui</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Keto:label">
+            <value>Keto</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Kay_Fanged:label">
+            <value>Kay  Fanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Salvador_2:label">
+            <value>Salvador  2</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM061013:label">
+            <value>UFM061013</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Genghis:label">
+            <value>Genghis</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Romeo_FL:label">
+            <value>Romeo  FL</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Georgia_-_adolescent:label">
+            <value>Georgia  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Thor:label">
+            <value>Thor</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM060209:label">
+            <value>UFM060209</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Aristotle:label">
+            <value>Aristotle</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Kay_Fanged:label">
+            <value>Kay  Fanged</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Archimedes_3:label">
+            <value>Archimedes  3</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Willow_2:label">
+            <value>Willow  2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/observer_2:label">
+            <value>Observer two</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gollum:label">
+            <value>Gollum</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF130909:label">
+            <value>SAF130909</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah_and_Isabella:label">
+            <value>Indah  + Isabella</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gracia:label">
+            <value>Gracia</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Einstein_Orson:label">
+            <value>Einstein  (Orson)</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Fio_-_infant:label">
+            <value>Fio  - infant</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Vulkan:label">
+            <value>Vulkan</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Claudius:label">
+            <value>Claudius</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Drake:label">
+            <value>Drake</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Leonardo_-_unflanged:label">
+            <value>Leonardo  - unflanged</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_2:label">
+            <value>Bengy  2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_1:label">
+            <value>Bengy  1</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Kino:label">
+            <value>Kino</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Baldur:label">
+            <value>Baldur</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Fossey:label">
+            <value>Fossey</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Doyle:label">
+            <value>Doyle</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM161205:label">
+            <value>UFM161205</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Teslor:label">
+            <value>Teslor</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM2507:label">
+            <value>FM2507</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM091112:label">
+            <value>FM091112</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM281104:label">
+            <value>UFM281104</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Titan:label">
+            <value>Titan</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Picasso:label">
+            <value>Picasso</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hamlet:label">
+            <value>Hamlet</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gracia_and_Gretel:label">
+            <value>Gracia  + Gretel</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Henry:label">
+            <value>Henry</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Feb_and_Fio:label">
+            <value>Feb  + Fio</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Lipstik:label">
+            <value>Lipstik</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM240208:label">
+            <value>FM240208</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Leto:label">
+            <value>Leto</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Franky:label">
+            <value>Franky</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM090512:label">
+            <value>FM090512</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleopatra:label">
+            <value>Cleopatra</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Winston_2:label">
+            <value>Winston  2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UN0704:label">
+            <value>UN0704</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF130909:label">
+            <value>SAF130909</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADF290409:label">
+            <value>ADF290409</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Wally:label">
+            <value>Wally</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Teresia_and_Timi:label">
+            <value>Teresia  + Timi</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Wilberforce:label">
+            <value>Wilberforce</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Jupiter:label">
+            <value>Jupiter</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Warrior:label">
+            <value>Warrior</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Isabella_-_adolescent:label">
+            <value>Isabella  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Urigella:label">
+            <value>Urigella</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gracia_and_Gretel:label">
+            <value>Gracia  + Gretel</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Benjol:label">
+            <value>Benjol</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Georgia_-_infant:label">
+            <value>Georgia  - infant</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Wizard:label">
+            <value>Wizard</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Fenser:label">
+            <value>Fenser</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Ulysses:label">
+            <value>Ulysses</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Romeo:label">
+            <value>Romeo</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Leonardo_-_flanged:label">
+            <value>Leonardo  - flanged</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Xylon:label">
+            <value>Xylon</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hector:label">
+            <value>Hector</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleo_3:label">
+            <value>Cleo  3</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/observer_1:label">
+            <value>Observer one</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Neptune:label">
+            <value>Neptune</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Marvin:label">
+            <value>Marvin</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM191012:label">
+            <value>FM191012</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Feb_-_adult:label">
+            <value>Feb  - adult</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM070110:label">
+            <value>FM070110</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indy_-_adolescent:label">
+            <value>Indy  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Fossey:label">
+            <value>Fossey</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Romeo_FL:label">
+            <value>Romeo  FL</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM221212:label">
+            <value>FM221212</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Zeus_unflanged:label">
+            <value>Zeus  unflanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM070110:label">
+            <value>FM070110</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Napoleon:label">
+            <value>Napoleon</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Wallace:label">
+            <value>Wallace</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM200306:label">
+            <value>UFM200306</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hengky_-_Injured:label">
+            <value>Hengky  - Injured</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF130414:label">
+            <value>SAF130414</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UN0307:label">
+            <value>UN0307</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM1302:label">
+            <value>FM1302</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM191012:label">
+            <value>FM191012</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Teslor:label">
+            <value>Teslor</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Nero:label">
+            <value>Nero</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Unnamed_infant:label">
+            <value>Unnamed  infant</value>
+          </text>
+          <text id="/Full-Follow/observation/location:label">
+            <value>Location of</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleo_2:label">
+            <value>Cleo  2</value>
+          </text>
+          <text id="/Full-Follow/observation/location/location_automatic:label">
+            <value>Location</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type:label">
+            <value>Follow Type</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Othello:label">
+            <value>Othello</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Potret:label">
+            <value>Potret</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Genghis:label">
+            <value>Genghis</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Feb_-_adolescent:label">
+            <value>Feb  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Leonardo_-_flanged:label">
+            <value>Leonardo  - flanged</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM070311:label">
+            <value>UFM070311</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Archimedes_3:label">
+            <value>Archimedes  3</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM2311:label">
+            <value>FM2311</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Trevor_-_infant:label">
+            <value>Trevor  - infant</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Teresia:label">
+            <value>Teresia</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indy_-_adult:label">
+            <value>Indy  - adult</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Willow_and_Wally:label">
+            <value>Willow  + Wally</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM23012013:label">
+            <value>FM23012013</value>
+          </text>
+          <text id="/Full-Follow/observation/species_eaten:label">
+            <value>Species Eaten</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM110213:label">
+            <value>FM110213</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Feb_and_Fio:label">
+            <value>Feb  + Fio</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Victor:label">
+            <value>Victor</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF231211:label">
+            <value>SAF231211</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM220311:label">
+            <value>FM220311</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Shima:label">
+            <value>Shima</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Oscar:label">
+            <value>Oscar</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM050511:label">
+            <value>UFM050511</value>
+          </text>
+          <text id="/Full-Follow/observation/location/latitude_manual:label">
+            <value>Latitude if GPS does not work</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Neptune:label">
+            <value>Neptune</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Galileo:label">
+            <value>Galileo</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleo_2:label">
+            <value>Cleo  2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Tyson:label">
+            <value>Tyson</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Icarus_-_infant:label">
+            <value>Icarus  - infant</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/D:label">
+            <value>D</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Juno:label">
+            <value>Juno</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM230710:label">
+            <value>UFM230710</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM101013:label">
+            <value>FM101013</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Ella_2:label">
+            <value>Ella  2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Galileo:label">
+            <value>Galileo</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type/Nest-to-Nest:label">
+            <value>Nest-to-Nest</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Feb_-_adolescent:label">
+            <value>Feb  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Gretel_-_infant:label">
+            <value>Gretel  - infant</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Viola:label">
+            <value>Viola</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah_and_Isabella:label">
+            <value>Indah  + Isabella</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Salvador:label">
+            <value>Salvador</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Mozart_-_flanged:label">
+            <value>Mozart  - flanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name:label">
+            <value>Orangutan Name</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF231107:label">
+            <value>SAF231107</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Lipstik:label">
+            <value>Lipstik</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hannibal:label">
+            <value>Hannibal</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Winston_-_adolescent:label">
+            <value>Winston  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Lipstik_and_Lenard:label">
+            <value>Lipstik  + Lenard</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type/From_nest_lost:label">
+            <value>From nest - lost</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Henry:label">
+            <value>Henry</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gracia_and_Gara:label">
+            <value>Gracia  + Gara</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Teresia_and_Trevor:label">
+            <value>Teresia  + Trevor</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/t:label">
+            <value>t</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM1106:label">
+            <value>FM1106</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah_and_Indy:label">
+            <value>Indah  + Indy</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Thor:label">
+            <value>Thor</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indy_-_adult:label">
+            <value>Indy  - adult</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Yana:label">
+            <value>Yana</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Oberon:label">
+            <value>Oberon</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/start_time_date:label">
+            <value>Start Time and Date</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Juliet:label">
+            <value>Juliet</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Aya:label">
+            <value>Aya</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADM130909:label">
+            <value>ADM130909</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gracia:label">
+            <value>Gracia</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Leony:label">
+            <value>Leony</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM221212:label">
+            <value>FM221212</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Einstein_Orson:label">
+            <value>Einstein  (Orson)</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Alonso:label">
+            <value>Alonso</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Nugget:label">
+            <value>Nugget</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADOLESCENT_MALE:label">
+            <value>ADOLESCENT  MALE</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UN0704:label">
+            <value>UN0704</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Winston:label">
+            <value>Winston</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM240208:label">
+            <value>FM240208</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah:label">
+            <value>Indah</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_1:label">
+            <value>Bengy  1</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM091112:label">
+            <value>FM091112</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADULT_FEMALE:label">
+            <value>ADULT  FEMALE</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Archimedes:label">
+            <value>Archimedes</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF041112:label">
+            <value>SAF041112</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM230311:label">
+            <value>FM230311</value>
+          </text>
+          <text id="/Full-Follow/observation/secondary_activity:label">
+            <value>Secondary Activity</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM200306:label">
+            <value>UFM200306</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Geminus:label">
+            <value>Geminus</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FLANGED_MALE:label">
+            <value>FLANGED  MALE</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Kay:label">
+            <value>Kay</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Teresia_and_Trevor:label">
+            <value>Teresia  + Trevor</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/NLF030206:label">
+            <value>NLF030206</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Mozart_-_unflanged:label">
+            <value>Mozart  - unflanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Chuck_-_infant:label">
+            <value>Chuck  - infant</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM230311:label">
+            <value>FM230311</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_4:label">
+            <value>Bengy  4</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Kay:label">
+            <value>Kay</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gracia_and_Gara:label">
+            <value>Gracia  + Gara</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/NONE:label">
+            <value>NONE</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Richard:label">
+            <value>Richard</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Leonardo_-_unflanged:label">
+            <value>Leonardo  - unflanged</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADOLESCENT_MALE:label">
+            <value>ADOLESCENT  MALE</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Wilberforce:label">
+            <value>Wilberforce</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UNFLANGED_MALE:label">
+            <value>UNFLANGED  MALE</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Keto:label">
+            <value>Keto</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Janus:label">
+            <value>Janus</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indy_-_adolescent:label">
+            <value>Indy  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Richard:label">
+            <value>Richard</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Beethoven:label">
+            <value>Beethoven</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Apollo:label">
+            <value>Apollo</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Chopin:label">
+            <value>Chopin</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Tyson:label">
+            <value>Tyson</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM120411:label">
+            <value>FM120411</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Georgia_-_adolescent:label">
+            <value>Georgia  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM061212:label">
+            <value>FM061212</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Urigella:label">
+            <value>Urigella</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Fenser:label">
+            <value>Fenser</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Apollo:label">
+            <value>Apollo</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Ima_-_infant:label">
+            <value>Ima  - infant</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/observer_3:label">
+            <value>Observer three</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Timi_-_adult:label">
+            <value>Timi  - adult</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Isabella_-_infant:label">
+            <value>Isabella  - infant</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Picasso:label">
+            <value>Picasso</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM061206:label">
+            <value>FM061206</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Aristotle:label">
+            <value>Aristotle</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM1706:label">
+            <value>FM1706</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Vulkan:label">
+            <value>Vulkan</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UNKNOWN_INDIVIDUAL:label">
+            <value>UNKNOWN  INDIVIDUAL</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah_and_Ima:label">
+            <value>Indah  + Ima</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Joy:label">
+            <value>Joy</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Timi_-_adolescent:label">
+            <value>Timi  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Ella_2:label">
+            <value>Ella  2</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Thor_2:label">
+            <value>Thor  2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM23012013:label">
+            <value>FM23012013</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Archimedes_4:label">
+            <value>Archimedes  4</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UN200809:label">
+            <value>UN200809</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM090512:label">
+            <value>FM090512</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM161205:label">
+            <value>UFM161205</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Qu:label">
+            <value>Qu</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleopatra:label">
+            <value>Cleopatra</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gracia_and_Georgia:label">
+            <value>Gracia  + Georgia</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_5:label">
+            <value>Bengy  5</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UN0307:label">
+            <value>UN0307</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADF290409:label">
+            <value>ADF290409</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM061206:label">
+            <value>FM061206</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Shogun:label">
+            <value>Shogun</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Zeus_flanged:label">
+            <value>Zeus  flanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Mozart_-_flanged:label">
+            <value>Mozart  - flanged</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM130212:label">
+            <value>UFM130212</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_5:label">
+            <value>Bengy  5</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Picasso_2:label">
+            <value>Picasso  2</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Alui:label">
+            <value>Alui</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gretel_-_adolescent:label">
+            <value>Gretel  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Leto:label">
+            <value>Leto</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Indy_-_Infant:label">
+            <value>Indy  - Infant</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_3:label">
+            <value>Bengy  3</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM110213:label">
+            <value>FM110213</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_2:label">
+            <value>Bengy  2</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Kino:label">
+            <value>Kino</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Archimedes:label">
+            <value>Archimedes</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF231211:label">
+            <value>SAF231211</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Ella:label">
+            <value>Ella</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM070912:label">
+            <value>UFM070912</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM140710:label">
+            <value>UFM140710</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah_and_unnamed_infant:label">
+            <value>Indah  + unnamed infant</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Juno:label">
+            <value>Juno</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hamlet:label">
+            <value>Hamlet</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Yoko:label">
+            <value>Yoko</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM101013:label">
+            <value>FM101013</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Titan:label">
+            <value>Titan</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gretel_-_adolescent:label">
+            <value>Gretel  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Beethoven:label">
+            <value>Beethoven</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Kandil:label">
+            <value>Kandil</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Victor:label">
+            <value>Victor</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah_and_unnamed_infant:label">
+            <value>Indah  + unnamed infant</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Isabella_-_adolescent:label">
+            <value>Isabella  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleo_and_Chivers:label">
+            <value>Cleo  + Chivers</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM130212:label">
+            <value>UFM130212</value>
+          </text>
+          <text id="/Full-Follow/setup_follow:label">
+            <value>Setup a follow</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Einstein:label">
+            <value>Einstein</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Othello:label">
+            <value>Othello</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF041112:label">
+            <value>SAF041112</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Goliath2:label">
+            <value>Goliath2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Peter_Pan:label">
+            <value>Peter  Pan</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hades_flanged:label">
+            <value>Hades  flanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UN290409:label">
+            <value>UN290409</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM120411:label">
+            <value>FM120411</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Doyle:label">
+            <value>Doyle</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hades:label">
+            <value>Hades</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Lipstik_and_Lenard:label">
+            <value>Lipstik  + Lenard</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Einstein:label">
+            <value>Einstein</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADOLESCENT_FEMALE:label">
+            <value>ADOLESCENT  FEMALE</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Viola:label">
+            <value>Viola</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Aya:label">
+            <value>Aya</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Louis:label">
+            <value>Louis</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleo_3:label">
+            <value>Cleo  3</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Teresia:label">
+            <value>Teresia</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Zeus_flanged:label">
+            <value>Zeus  flanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Janus:label">
+            <value>Janus</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_-_unflanged:label">
+            <value>Bengy  - unflanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Yana:label">
+            <value>Yana</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hector:label">
+            <value>Hector</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM2507:label">
+            <value>FM2507</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Willow:label">
+            <value>Willow</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Pluto:label">
+            <value>Pluto</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Gracia_and_Georgia:label">
+            <value>Gracia  + Georgia</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/t:label">
+            <value>t</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Ella:label">
+            <value>Ella</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM070113:label">
+            <value>FM070113</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Amazon:label">
+            <value>Amazon</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Baldur:label">
+            <value>Baldur</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_4:label">
+            <value>Bengy  4</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Willow_and_Warrior:label">
+            <value>Willow  + Warrior</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleo_and_Chuck:label">
+            <value>Cleo  + Chuck</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM2203:label">
+            <value>FM2203</value>
+          </text>
+          <text id="/Full-Follow/observation/primary_activity:label">
+            <value>Primary Activity</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Shima:label">
+            <value>Shima</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hengky:label">
+            <value>Hengky</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM061013:label">
+            <value>UFM061013</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Winston_2:label">
+            <value>Winston  2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Cleo_and_Chuck:label">
+            <value>Cleo  + Chuck</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Benjol:label">
+            <value>Benjol</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM070912:label">
+            <value>UFM070912</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Cleo_and_Chivers:label">
+            <value>Cleo  + Chivers</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM1302:label">
+            <value>FM1302</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM230710:label">
+            <value>UFM230710</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Mozart_-_unflanged:label">
+            <value>Mozart  - unflanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Willow_and_Wally:label">
+            <value>Willow  + Wally</value>
+          </text>
+          <text id="/Full-Follow/observation/location/longitude_manual:label">
+            <value>Longitude manual if GPS does not work</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Thor_2:label">
+            <value>Thor  2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_3:label">
+            <value>Bengy  3</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Willow_and_Warrior:label">
+            <value>Willow  + Warrior</value>
+          </text>
+          <text id="/Full-Follow/observation/height_OU:label">
+            <value>Height OU</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indah_and_Indy:label">
+            <value>Indah  + Indy</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah_and_Ima:label">
+            <value>Indah  + Ima</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Warhol:label">
+            <value>Warhol</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Leony:label">
+            <value>Leony</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Timi_-_infant:label">
+            <value>Timi  - infant</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM070113:label">
+            <value>FM070113</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM140710:label">
+            <value>UFM140710</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Bengy_-_adolescent:label">
+            <value>Bengy  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UFM050511:label">
+            <value>UFM050511</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/ADULT_FEMALE:label">
+            <value>ADULT  FEMALE</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Bintan_-_infant:label">
+            <value>Bintan - infant</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Golly:label">
+            <value>Golly</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indah:label">
+            <value>Indah</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM0701:label">
+            <value>FM0701</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Indy_and_Icarus:label">
+            <value>Indy  + Icarus</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Timi_-_adult:label">
+            <value>Timi  - adult</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Archimedes_4:label">
+            <value>Archimedes  4</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UNFLANGED_MALE:label">
+            <value>UNFLANGED  MALE</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF130414:label">
+            <value>SAF130414</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Winston_-_adolescent:label">
+            <value>Winston  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM1106:label">
+            <value>FM1106</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name:label">
+            <value>Infant name</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Jupiter:label">
+            <value>Jupiter</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF110913:label">
+            <value>SAF110913</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type/Found_to_nest:label">
+            <value>Found, to nest</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADOLESCENT_FEMALE:label">
+            <value>ADOLESCENT  FEMALE</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_-_unflanged:label">
+            <value>Bengy  - unflanged</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2:label">
+            <value>Party member two</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Goliath:label">
+            <value>Goliath</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Peter_Pan:label">
+            <value>Peter  Pan</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/D:label">
+            <value>D</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Barita:label">
+            <value>Barita</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Louis:label">
+            <value>Louis</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM2311:label">
+            <value>FM2311</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Goliath2:label">
+            <value>Goliath2</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Indy_and_Icarus:label">
+            <value>Indy  + Icarus</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hades:label">
+            <value>Hades</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Shogun:label">
+            <value>Shogun</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Bengy_-_adolescent:label">
+            <value>Bengy  - adolescent</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Romeo:label">
+            <value>Romeo</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Eosah:label">
+            <value>Eosah</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Chivers_-_infant:label">
+            <value>Chivers  - infant</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM281104:label">
+            <value>UFM281104</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Franky:label">
+            <value>Franky</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/SAF231107:label">
+            <value>SAF231107</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Teresia_and_Timi:label">
+            <value>Teresia  + Timi</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Juliet:label">
+            <value>Juliet</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Willow_2:label">
+            <value>Willow  2</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Napoleon:label">
+            <value>Napoleon</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Drake:label">
+            <value>Drake</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hannibal:label">
+            <value>Hannibal</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM220311:label">
+            <value>FM220311</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Qu:label">
+            <value>Qu</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Barita:label">
+            <value>Barita</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Pluto:label">
+            <value>Pluto</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Salvador:label">
+            <value>Salvador</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Gara:label">
+            <value>Gara</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Wallace:label">
+            <value>Wallace</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM1706:label">
+            <value>FM1706</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Oscar:label">
+            <value>Oscar</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/UFM070311:label">
+            <value>UFM070311</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Potret:label">
+            <value>Potret</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Warhol:label">
+            <value>Warhol</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Willow:label">
+            <value>Willow</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hengky:label">
+            <value>Hengky</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Marvin:label">
+            <value>Marvin</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Golly:label">
+            <value>Golly</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Zeus_unflanged:label">
+            <value>Zeus  unflanged</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/SAF110913:label">
+            <value>SAF110913</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Picasso_2:label">
+            <value>Picasso  2</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UN200809:label">
+            <value>UN200809</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/follow_type/Found_then_lost:label">
+            <value>Found, then lost</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Hades_flanged:label">
+            <value>Hades  flanged</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/ADM130909:label">
+            <value>ADM130909</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Gollum:label">
+            <value>Gollum</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM061212:label">
+            <value>FM061212</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Feb_-_adult:label">
+            <value>Feb  - adult</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Nero:label">
+            <value>Nero</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Oberon:label">
+            <value>Oberon</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Alonso:label">
+            <value>Alonso</value>
+          </text>
+          <text id="/Full-Follow/observation:label">
+            <value>Five Minute Observation</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Geminus:label">
+            <value>Geminus</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/UN290409:label">
+            <value>UN290409</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Claudius:label">
+            <value>Claudius</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/infant_name/Lenard:label">
+            <value>Lenard</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Hengky_-_Injured:label">
+            <value>Hengky  - Injured</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/FM0701:label">
+            <value>FM0701</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/NLF030206:label">
+            <value>NLF030206</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Ulysses:label">
+            <value>Ulysses</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/FM2203:label">
+            <value>FM2203</value>
+          </text>
+          <text id="/Full-Follow/observation/party_member_2/Amazon:label">
+            <value>Amazon</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Xylon:label">
+            <value>Xylon</value>
+          </text>
+          <text id="/Full-Follow/setup_follow/orangutan_name/Newton:label">
+            <value>Newton</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <Full-Follow id="build_Full-Follow_1517848878">
+          <setup_follow>
+            <today/>
+            <start_time_date/>
+            <orangutan_name/>
+            <infant_name/>
+            <observer_1/>
+            <observer_2/>
+            <observer_3/>
+            <follow_type/>
+          </setup_follow>
+          <observation jr:template="">
+            <time_start/>
+            <location>
+              <location_automatic/>
+              <latitude_manual/>
+              <longitude_manual/>
+            </location>
+            <primary_activity/>
+            <secondary_activity/>
+            <species_eaten/>
+            <height_OU/>
+            <party_member_2/>
+            <time_end/>
+          </observation>
+          <meta>
+            <instanceID/>
+          </meta>
+        </Full-Follow>
+      </instance>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/Full-Follow/setup_follow/today" type="date"/>
+      <bind nodeset="/Full-Follow/setup_follow/start_time_date" type="dateTime"/>
+      <bind nodeset="/Full-Follow/setup_follow/orangutan_name" required="true()" type="select1"/>
+      <bind nodeset="/Full-Follow/setup_follow/infant_name" type="select1"/>
+      <bind nodeset="/Full-Follow/setup_follow/observer_1" required="true()" type="string"/>
+      <bind nodeset="/Full-Follow/setup_follow/observer_2" type="string"/>
+      <bind nodeset="/Full-Follow/setup_follow/observer_3" type="string"/>
+      <bind nodeset="/Full-Follow/setup_follow/follow_type" type="select1"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/Full-Follow/observation/time_start" type="dateTime"/>
+      <bind nodeset="/Full-Follow/observation/location/location_automatic" type="geopoint"/>
+      <bind nodeset="/Full-Follow/observation/location/latitude_manual" type="string"/>
+      <bind nodeset="/Full-Follow/observation/location/longitude_manual" type="string"/>
+      <bind nodeset="/Full-Follow/observation/primary_activity" type="string"/>
+      <bind nodeset="/Full-Follow/observation/secondary_activity" type="string"/>
+      <bind nodeset="/Full-Follow/observation/species_eaten" type="string"/>
+      <bind nodeset="/Full-Follow/observation/height_OU" type="string"/>
+      <bind nodeset="/Full-Follow/observation/party_member_2" type="select1"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/Full-Follow/observation/time_end" type="dateTime"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/Full-Follow/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/Full-Follow/setup_follow">
+      <label ref="jr:itext('/Full-Follow/setup_follow:label')"/>
+      <input ref="/Full-Follow/setup_follow/start_time_date">
+        <label ref="jr:itext('/Full-Follow/setup_follow/start_time_date:label')"/>
+      </input>
+      <select1 appearance="minimal" ref="/Full-Follow/setup_follow/orangutan_name">
+        <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name:label')"/>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/ADF290409:label')"/>
+          <value>ADF290409</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/ADM130909:label')"/>
+          <value>ADM130909</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/ADOLESCENT_FEMALE:label')"/>
+          <value>ADOLESCENT_FEMALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/ADOLESCENT_MALE:label')"/>
+          <value>ADOLESCENT_MALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/ADULT_FEMALE:label')"/>
+          <value>ADULT_FEMALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Alonso:label')"/>
+          <value>Alonso</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Alui:label')"/>
+          <value>Alui</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Amazon:label')"/>
+          <value>Amazon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Apollo:label')"/>
+          <value>Apollo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Archimedes:label')"/>
+          <value>Archimedes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Archimedes_3:label')"/>
+          <value>Archimedes_3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Archimedes_4:label')"/>
+          <value>Archimedes_4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Aristotle:label')"/>
+          <value>Aristotle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Aya:label')"/>
+          <value>Aya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Baldur:label')"/>
+          <value>Baldur</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Barita:label')"/>
+          <value>Barita</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Beethoven:label')"/>
+          <value>Beethoven</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Bengy_-_adolescent:label')"/>
+          <value>Bengy_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Bengy_-_unflanged:label')"/>
+          <value>Bengy_-_unflanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Bengy_1:label')"/>
+          <value>Bengy_1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Bengy_2:label')"/>
+          <value>Bengy_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Bengy_3:label')"/>
+          <value>Bengy_3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Bengy_4:label')"/>
+          <value>Bengy_4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Bengy_5:label')"/>
+          <value>Bengy_5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Benjol:label')"/>
+          <value>Benjol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Chopin:label')"/>
+          <value>Chopin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Claudius:label')"/>
+          <value>Claudius</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Cleo_and_Chivers:label')"/>
+          <value>Cleo_and_Chivers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Cleo_and_Chuck:label')"/>
+          <value>Cleo_and_Chuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Cleo_2:label')"/>
+          <value>Cleo_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Cleo_3:label')"/>
+          <value>Cleo_3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Cleopatra:label')"/>
+          <value>Cleopatra</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/D:label')"/>
+          <value>D</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Doyle:label')"/>
+          <value>Doyle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Drake:label')"/>
+          <value>Drake</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Einstein:label')"/>
+          <value>Einstein</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Einstein_Orson:label')"/>
+          <value>Einstein_Orson</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Ella:label')"/>
+          <value>Ella</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Ella_2:label')"/>
+          <value>Ella_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Eosah:label')"/>
+          <value>Eosah</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Feb_-_adolescent:label')"/>
+          <value>Feb_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Feb_-_adult:label')"/>
+          <value>Feb_-_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Feb_and_Fio:label')"/>
+          <value>Feb_and_Fio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Fenser:label')"/>
+          <value>Fenser</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FLANGED_MALE:label')"/>
+          <value>FLANGED_MALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM061206:label')"/>
+          <value>FM061206</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM061212:label')"/>
+          <value>FM061212</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM0701:label')"/>
+          <value>FM0701</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM070110:label')"/>
+          <value>FM070110</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM070113:label')"/>
+          <value>FM070113</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM090512:label')"/>
+          <value>FM090512</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM091112:label')"/>
+          <value>FM091112</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM101013:label')"/>
+          <value>FM101013</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM110213:label')"/>
+          <value>FM110213</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM1106:label')"/>
+          <value>FM1106</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM120411:label')"/>
+          <value>FM120411</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM1302:label')"/>
+          <value>FM1302</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM1706:label')"/>
+          <value>FM1706</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM191012:label')"/>
+          <value>FM191012</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM2203:label')"/>
+          <value>FM2203</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM220311:label')"/>
+          <value>FM220311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM221212:label')"/>
+          <value>FM221212</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM23012013:label')"/>
+          <value>FM23012013</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM230311:label')"/>
+          <value>FM230311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM2311:label')"/>
+          <value>FM2311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM240208:label')"/>
+          <value>FM240208</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/FM2507:label')"/>
+          <value>FM2507</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Fossey:label')"/>
+          <value>Fossey</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Franky:label')"/>
+          <value>Franky</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Galileo:label')"/>
+          <value>Galileo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Geminus:label')"/>
+          <value>Geminus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Genghis:label')"/>
+          <value>Genghis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Georgia_-_adolescent:label')"/>
+          <value>Georgia_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Goliath:label')"/>
+          <value>Goliath</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Goliath2:label')"/>
+          <value>Goliath2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Gollum:label')"/>
+          <value>Gollum</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Golly:label')"/>
+          <value>Golly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Gracia:label')"/>
+          <value>Gracia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Gracia_and_Gara:label')"/>
+          <value>Gracia_and_Gara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Gracia_and_Georgia:label')"/>
+          <value>Gracia_and_Georgia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Gracia_and_Gretel:label')"/>
+          <value>Gracia_and_Gretel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Gretel_-_adolescent:label')"/>
+          <value>Gretel_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Hades:label')"/>
+          <value>Hades</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Hades_flanged:label')"/>
+          <value>Hades_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Hamlet:label')"/>
+          <value>Hamlet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Hannibal:label')"/>
+          <value>Hannibal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Hector:label')"/>
+          <value>Hector</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Hengky:label')"/>
+          <value>Hengky</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Hengky_-_Injured:label')"/>
+          <value>Hengky_-_Injured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Henry:label')"/>
+          <value>Henry</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Indah:label')"/>
+          <value>Indah</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Indah_and_Ima:label')"/>
+          <value>Indah_and_Ima</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Indah_and_Indy:label')"/>
+          <value>Indah_and_Indy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Indah_and_Isabella:label')"/>
+          <value>Indah_and_Isabella</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Indah_and_unnamed_infant:label')"/>
+          <value>Indah_and_unnamed_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Indy_-_adolescent:label')"/>
+          <value>Indy_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Indy_-_adult:label')"/>
+          <value>Indy_-_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Indy_and_Icarus:label')"/>
+          <value>Indy_and_Icarus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Isabella_-_adolescent:label')"/>
+          <value>Isabella_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Janus:label')"/>
+          <value>Janus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Juliet:label')"/>
+          <value>Juliet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Juno:label')"/>
+          <value>Juno</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Jupiter:label')"/>
+          <value>Jupiter</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Kandil:label')"/>
+          <value>Kandil</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Kay:label')"/>
+          <value>Kay</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Kay_Fanged:label')"/>
+          <value>Kay_Fanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Keto:label')"/>
+          <value>Keto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Kino:label')"/>
+          <value>Kino</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Leonardo_-_flanged:label')"/>
+          <value>Leonardo_-_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Leonardo_-_unflanged:label')"/>
+          <value>Leonardo_-_unflanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Leony:label')"/>
+          <value>Leony</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Leto:label')"/>
+          <value>Leto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Lipstik:label')"/>
+          <value>Lipstik</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Lipstik_and_Lenard:label')"/>
+          <value>Lipstik_and_Lenard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Louis:label')"/>
+          <value>Louis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Marvin:label')"/>
+          <value>Marvin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Mozart_-_flanged:label')"/>
+          <value>Mozart_-_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Mozart_-_unflanged:label')"/>
+          <value>Mozart_-_unflanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Napoleon:label')"/>
+          <value>Napoleon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Neptune:label')"/>
+          <value>Neptune</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Nero:label')"/>
+          <value>Nero</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Newton:label')"/>
+          <value>Newton</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/NLF030206:label')"/>
+          <value>NLF030206</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Nugget:label')"/>
+          <value>Nugget</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Oberon:label')"/>
+          <value>Oberon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Oscar:label')"/>
+          <value>Oscar</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Othello:label')"/>
+          <value>Othello</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Peter_Pan:label')"/>
+          <value>Peter_Pan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Picasso:label')"/>
+          <value>Picasso</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Picasso_2:label')"/>
+          <value>Picasso_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Pluto:label')"/>
+          <value>Pluto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Potret:label')"/>
+          <value>Potret</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Qu:label')"/>
+          <value>Qu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Richard:label')"/>
+          <value>Richard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Romeo:label')"/>
+          <value>Romeo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Romeo_FL:label')"/>
+          <value>Romeo_FL</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/SAF041112:label')"/>
+          <value>SAF041112</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/SAF110913:label')"/>
+          <value>SAF110913</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/SAF130414:label')"/>
+          <value>SAF130414</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/SAF130909:label')"/>
+          <value>SAF130909</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/SAF231107:label')"/>
+          <value>SAF231107</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/SAF231211:label')"/>
+          <value>SAF231211</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Salvador:label')"/>
+          <value>Salvador</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Salvador_2:label')"/>
+          <value>Salvador_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Shima:label')"/>
+          <value>Shima</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Shogun:label')"/>
+          <value>Shogun</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/t:label')"/>
+          <value>t</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Teresia:label')"/>
+          <value>Teresia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Teresia_and_Timi:label')"/>
+          <value>Teresia_and_Timi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Teresia_and_Trevor:label')"/>
+          <value>Teresia_and_Trevor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Teslor:label')"/>
+          <value>Teslor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Thor:label')"/>
+          <value>Thor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Thor_2:label')"/>
+          <value>Thor_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Timi_-_adolescent:label')"/>
+          <value>Timi_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Timi_-_adult:label')"/>
+          <value>Timi_-_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Titan:label')"/>
+          <value>Titan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Tyson:label')"/>
+          <value>Tyson</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM050511:label')"/>
+          <value>UFM050511</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM060209:label')"/>
+          <value>UFM060209</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM061013:label')"/>
+          <value>UFM061013</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM070311:label')"/>
+          <value>UFM070311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM070912:label')"/>
+          <value>UFM070912</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM130212:label')"/>
+          <value>UFM130212</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM140710:label')"/>
+          <value>UFM140710</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM161205:label')"/>
+          <value>UFM161205</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM200306:label')"/>
+          <value>UFM200306</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM230710:label')"/>
+          <value>UFM230710</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UFM281104:label')"/>
+          <value>UFM281104</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Ulysses:label')"/>
+          <value>Ulysses</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UN0307:label')"/>
+          <value>UN0307</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UN0704:label')"/>
+          <value>UN0704</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UN200809:label')"/>
+          <value>UN200809</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UN290409:label')"/>
+          <value>UN290409</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UNFLANGED_MALE:label')"/>
+          <value>UNFLANGED_MALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/UNKNOWN_INDIVIDUAL:label')"/>
+          <value>UNKNOWN_INDIVIDUAL</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Urigella:label')"/>
+          <value>Urigella</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Victor:label')"/>
+          <value>Victor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Viola:label')"/>
+          <value>Viola</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Vulkan:label')"/>
+          <value>Vulkan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Wallace:label')"/>
+          <value>Wallace</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Warhol:label')"/>
+          <value>Warhol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Wilberforce:label')"/>
+          <value>Wilberforce</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Willow:label')"/>
+          <value>Willow</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Willow_and_Wally:label')"/>
+          <value>Willow_and_Wally</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Willow_and_Warrior:label')"/>
+          <value>Willow_and_Warrior</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Willow_2:label')"/>
+          <value>Willow_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Winston_-_adolescent:label')"/>
+          <value>Winston_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Winston_2:label')"/>
+          <value>Winston_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Wizard:label')"/>
+          <value>Wizard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Xylon:label')"/>
+          <value>Xylon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Yana:label')"/>
+          <value>Yana</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Zeus_flanged:label')"/>
+          <value>Zeus_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/orangutan_name/Zeus_unflanged:label')"/>
+          <value>Zeus_unflanged</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/Full-Follow/setup_follow/infant_name">
+        <label ref="jr:itext('/Full-Follow/setup_follow/infant_name:label')"/>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Bintan_-_infant:label')"/>
+          <value>Bintan_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Chivers_-_infant:label')"/>
+          <value>Chivers_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Chuck_-_infant:label')"/>
+          <value>Chuck_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Fio_-_infant:label')"/>
+          <value>Fio_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Gara:label')"/>
+          <value>Gara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Georgia_-_infant:label')"/>
+          <value>Georgia_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Gretel_-_infant:label')"/>
+          <value>Gretel_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Icarus_-_infant:label')"/>
+          <value>Icarus_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Ima_-_infant:label')"/>
+          <value>Ima_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Indy_-_Infant:label')"/>
+          <value>Indy_-_Infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Isabella_-_infant:label')"/>
+          <value>Isabella_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Joy:label')"/>
+          <value>Joy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Lenard:label')"/>
+          <value>Lenard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/NONE:label')"/>
+          <value>NONE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Timi_-_infant:label')"/>
+          <value>Timi_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Trevor_-_infant:label')"/>
+          <value>Trevor_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Unnamed_infant:label')"/>
+          <value>Unnamed_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Wally:label')"/>
+          <value>Wally</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Warrior:label')"/>
+          <value>Warrior</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Winston:label')"/>
+          <value>Winston</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/infant_name/Yoko:label')"/>
+          <value>Yoko</value>
+        </item>
+      </select1>
+      <input ref="/Full-Follow/setup_follow/observer_1">
+        <label ref="jr:itext('/Full-Follow/setup_follow/observer_1:label')"/>
+      </input>
+      <input ref="/Full-Follow/setup_follow/observer_2">
+        <label ref="jr:itext('/Full-Follow/setup_follow/observer_2:label')"/>
+      </input>
+      <input ref="/Full-Follow/setup_follow/observer_3">
+        <label ref="jr:itext('/Full-Follow/setup_follow/observer_3:label')"/>
+      </input>
+      <select1 appearance="minimal" ref="/Full-Follow/setup_follow/follow_type">
+        <label ref="jr:itext('/Full-Follow/setup_follow/follow_type:label')"/>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/follow_type/Nest-to-Nest:label')"/>
+          <value>Nest-to-Nest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/follow_type/Found_to_nest:label')"/>
+          <value>Found_to_nest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/follow_type/From_nest_lost:label')"/>
+          <value>From_nest_lost</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/Full-Follow/setup_follow/follow_type/Found_then_lost:label')"/>
+          <value>Found_then_lost</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/Full-Follow/observation">
+      <label ref="jr:itext('/Full-Follow/observation:label')"/>
+      <repeat nodeset="/Full-Follow/observation">
+        <group appearance="field-list" ref="/Full-Follow/observation/location">
+          <label ref="jr:itext('/Full-Follow/observation/location:label')"/>
+          <input ref="/Full-Follow/observation/location/location_automatic">
+            <label ref="jr:itext('/Full-Follow/observation/location/location_automatic:label')"/>
+            <hint>GPS coordinates can only be collected when outside.</hint>
+          </input>
+          <input ref="/Full-Follow/observation/location/latitude_manual">
+            <label ref="jr:itext('/Full-Follow/observation/location/latitude_manual:label')"/>
+          </input>
+          <input ref="/Full-Follow/observation/location/longitude_manual">
+            <label ref="jr:itext('/Full-Follow/observation/location/longitude_manual:label')"/>
+          </input>
+        </group>
+        <input ref="/Full-Follow/observation/primary_activity">
+          <label ref="jr:itext('/Full-Follow/observation/primary_activity:label')"/>
+        </input>
+        <input ref="/Full-Follow/observation/secondary_activity">
+          <label ref="jr:itext('/Full-Follow/observation/secondary_activity:label')"/>
+        </input>
+        <input ref="/Full-Follow/observation/species_eaten">
+          <label ref="jr:itext('/Full-Follow/observation/species_eaten:label')"/>
+        </input>
+        <input ref="/Full-Follow/observation/height_OU">
+          <label ref="jr:itext('/Full-Follow/observation/height_OU:label')"/>
+        </input>
+        <select1 appearance="minimal" ref="/Full-Follow/observation/party_member_2">
+          <label ref="jr:itext('/Full-Follow/observation/party_member_2:label')"/>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/ADF290409:label')"/>
+            <value>ADF290409</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/ADM130909:label')"/>
+            <value>ADM130909</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/ADOLESCENT_FEMALE:label')"/>
+            <value>ADOLESCENT_FEMALE</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/ADOLESCENT_MALE:label')"/>
+            <value>ADOLESCENT_MALE</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/ADULT_FEMALE:label')"/>
+            <value>ADULT_FEMALE</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Alonso:label')"/>
+            <value>Alonso</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Alui:label')"/>
+            <value>Alui</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Amazon:label')"/>
+            <value>Amazon</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Apollo:label')"/>
+            <value>Apollo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Archimedes:label')"/>
+            <value>Archimedes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Archimedes_3:label')"/>
+            <value>Archimedes_3</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Archimedes_4:label')"/>
+            <value>Archimedes_4</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Aristotle:label')"/>
+            <value>Aristotle</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Aya:label')"/>
+            <value>Aya</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Baldur:label')"/>
+            <value>Baldur</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Barita:label')"/>
+            <value>Barita</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Beethoven:label')"/>
+            <value>Beethoven</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Bengy_-_adolescent:label')"/>
+            <value>Bengy_-_adolescent</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Bengy_-_unflanged:label')"/>
+            <value>Bengy_-_unflanged</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Bengy_1:label')"/>
+            <value>Bengy_1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Bengy_2:label')"/>
+            <value>Bengy_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Bengy_3:label')"/>
+            <value>Bengy_3</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Bengy_4:label')"/>
+            <value>Bengy_4</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Bengy_5:label')"/>
+            <value>Bengy_5</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Benjol:label')"/>
+            <value>Benjol</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Chopin:label')"/>
+            <value>Chopin</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Claudius:label')"/>
+            <value>Claudius</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Cleo_and_Chivers:label')"/>
+            <value>Cleo_and_Chivers</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Cleo_and_Chuck:label')"/>
+            <value>Cleo_and_Chuck</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Cleo_2:label')"/>
+            <value>Cleo_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Cleo_3:label')"/>
+            <value>Cleo_3</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Cleopatra:label')"/>
+            <value>Cleopatra</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/D:label')"/>
+            <value>D</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Doyle:label')"/>
+            <value>Doyle</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Drake:label')"/>
+            <value>Drake</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Einstein:label')"/>
+            <value>Einstein</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Einstein_Orson:label')"/>
+            <value>Einstein_Orson</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Ella:label')"/>
+            <value>Ella</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Ella_2:label')"/>
+            <value>Ella_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Eosah:label')"/>
+            <value>Eosah</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Feb_-_adolescent:label')"/>
+            <value>Feb_-_adolescent</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Feb_-_adult:label')"/>
+            <value>Feb_-_adult</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Feb_and_Fio:label')"/>
+            <value>Feb_and_Fio</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Fenser:label')"/>
+            <value>Fenser</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FLANGED_MALE:label')"/>
+            <value>FLANGED_MALE</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM061206:label')"/>
+            <value>FM061206</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM061212:label')"/>
+            <value>FM061212</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM0701:label')"/>
+            <value>FM0701</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM070110:label')"/>
+            <value>FM070110</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM070113:label')"/>
+            <value>FM070113</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM090512:label')"/>
+            <value>FM090512</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM091112:label')"/>
+            <value>FM091112</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM101013:label')"/>
+            <value>FM101013</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM110213:label')"/>
+            <value>FM110213</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM1106:label')"/>
+            <value>FM1106</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM120411:label')"/>
+            <value>FM120411</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM1302:label')"/>
+            <value>FM1302</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM1706:label')"/>
+            <value>FM1706</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM191012:label')"/>
+            <value>FM191012</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM2203:label')"/>
+            <value>FM2203</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM220311:label')"/>
+            <value>FM220311</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM221212:label')"/>
+            <value>FM221212</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM23012013:label')"/>
+            <value>FM23012013</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM230311:label')"/>
+            <value>FM230311</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM2311:label')"/>
+            <value>FM2311</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM240208:label')"/>
+            <value>FM240208</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/FM2507:label')"/>
+            <value>FM2507</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Fossey:label')"/>
+            <value>Fossey</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Franky:label')"/>
+            <value>Franky</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Galileo:label')"/>
+            <value>Galileo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Geminus:label')"/>
+            <value>Geminus</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Genghis:label')"/>
+            <value>Genghis</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Georgia_-_adolescent:label')"/>
+            <value>Georgia_-_adolescent</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Goliath:label')"/>
+            <value>Goliath</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Goliath2:label')"/>
+            <value>Goliath2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Gollum:label')"/>
+            <value>Gollum</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Golly:label')"/>
+            <value>Golly</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Gracia:label')"/>
+            <value>Gracia</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Gracia_and_Gara:label')"/>
+            <value>Gracia_and_Gara</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Gracia_and_Georgia:label')"/>
+            <value>Gracia_and_Georgia</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Gracia_and_Gretel:label')"/>
+            <value>Gracia_and_Gretel</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Gretel_-_adolescent:label')"/>
+            <value>Gretel_-_adolescent</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Hades:label')"/>
+            <value>Hades</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Hades_flanged:label')"/>
+            <value>Hades_flanged</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Hamlet:label')"/>
+            <value>Hamlet</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Hannibal:label')"/>
+            <value>Hannibal</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Hector:label')"/>
+            <value>Hector</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Hengky:label')"/>
+            <value>Hengky</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Hengky_-_Injured:label')"/>
+            <value>Hengky_-_Injured</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Henry:label')"/>
+            <value>Henry</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Indah:label')"/>
+            <value>Indah</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Indah_and_Ima:label')"/>
+            <value>Indah_and_Ima</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Indah_and_Indy:label')"/>
+            <value>Indah_and_Indy</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Indah_and_Isabella:label')"/>
+            <value>Indah_and_Isabella</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Indah_and_unnamed_infant:label')"/>
+            <value>Indah_and_unnamed_infant</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Indy_-_adolescent:label')"/>
+            <value>Indy_-_adolescent</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Indy_-_adult:label')"/>
+            <value>Indy_-_adult</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Indy_and_Icarus:label')"/>
+            <value>Indy_and_Icarus</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Isabella_-_adolescent:label')"/>
+            <value>Isabella_-_adolescent</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Janus:label')"/>
+            <value>Janus</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Juliet:label')"/>
+            <value>Juliet</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Juno:label')"/>
+            <value>Juno</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Jupiter:label')"/>
+            <value>Jupiter</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Kandil:label')"/>
+            <value>Kandil</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Kay:label')"/>
+            <value>Kay</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Kay_Fanged:label')"/>
+            <value>Kay_Fanged</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Keto:label')"/>
+            <value>Keto</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Kino:label')"/>
+            <value>Kino</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Leonardo_-_flanged:label')"/>
+            <value>Leonardo_-_flanged</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Leonardo_-_unflanged:label')"/>
+            <value>Leonardo_-_unflanged</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Leony:label')"/>
+            <value>Leony</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Leto:label')"/>
+            <value>Leto</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Lipstik:label')"/>
+            <value>Lipstik</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Lipstik_and_Lenard:label')"/>
+            <value>Lipstik_and_Lenard</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Louis:label')"/>
+            <value>Louis</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Marvin:label')"/>
+            <value>Marvin</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Mozart_-_flanged:label')"/>
+            <value>Mozart_-_flanged</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Mozart_-_unflanged:label')"/>
+            <value>Mozart_-_unflanged</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Napoleon:label')"/>
+            <value>Napoleon</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Neptune:label')"/>
+            <value>Neptune</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Nero:label')"/>
+            <value>Nero</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Newton:label')"/>
+            <value>Newton</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/NLF030206:label')"/>
+            <value>NLF030206</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Nugget:label')"/>
+            <value>Nugget</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Oberon:label')"/>
+            <value>Oberon</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Oscar:label')"/>
+            <value>Oscar</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Othello:label')"/>
+            <value>Othello</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Peter_Pan:label')"/>
+            <value>Peter_Pan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Picasso:label')"/>
+            <value>Picasso</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Picasso_2:label')"/>
+            <value>Picasso_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Pluto:label')"/>
+            <value>Pluto</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Potret:label')"/>
+            <value>Potret</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Qu:label')"/>
+            <value>Qu</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Richard:label')"/>
+            <value>Richard</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Romeo:label')"/>
+            <value>Romeo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Romeo_FL:label')"/>
+            <value>Romeo_FL</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/SAF041112:label')"/>
+            <value>SAF041112</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/SAF110913:label')"/>
+            <value>SAF110913</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/SAF130414:label')"/>
+            <value>SAF130414</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/SAF130909:label')"/>
+            <value>SAF130909</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/SAF231107:label')"/>
+            <value>SAF231107</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/SAF231211:label')"/>
+            <value>SAF231211</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Salvador:label')"/>
+            <value>Salvador</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Salvador_2:label')"/>
+            <value>Salvador_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Shima:label')"/>
+            <value>Shima</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Shogun:label')"/>
+            <value>Shogun</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/t:label')"/>
+            <value>t</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Teresia:label')"/>
+            <value>Teresia</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Teresia_and_Timi:label')"/>
+            <value>Teresia_and_Timi</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Teresia_and_Trevor:label')"/>
+            <value>Teresia_and_Trevor</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Teslor:label')"/>
+            <value>Teslor</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Thor:label')"/>
+            <value>Thor</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Thor_2:label')"/>
+            <value>Thor_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Timi_-_adolescent:label')"/>
+            <value>Timi_-_adolescent</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Timi_-_adult:label')"/>
+            <value>Timi_-_adult</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Titan:label')"/>
+            <value>Titan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Tyson:label')"/>
+            <value>Tyson</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM050511:label')"/>
+            <value>UFM050511</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM060209:label')"/>
+            <value>UFM060209</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM061013:label')"/>
+            <value>UFM061013</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM070311:label')"/>
+            <value>UFM070311</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM070912:label')"/>
+            <value>UFM070912</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM130212:label')"/>
+            <value>UFM130212</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM140710:label')"/>
+            <value>UFM140710</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM161205:label')"/>
+            <value>UFM161205</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM200306:label')"/>
+            <value>UFM200306</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM230710:label')"/>
+            <value>UFM230710</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UFM281104:label')"/>
+            <value>UFM281104</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Ulysses:label')"/>
+            <value>Ulysses</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UN0307:label')"/>
+            <value>UN0307</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UN0704:label')"/>
+            <value>UN0704</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UN200809:label')"/>
+            <value>UN200809</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UN290409:label')"/>
+            <value>UN290409</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UNFLANGED_MALE:label')"/>
+            <value>UNFLANGED_MALE</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/UNKNOWN_INDIVIDUAL:label')"/>
+            <value>UNKNOWN_INDIVIDUAL</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Urigella:label')"/>
+            <value>Urigella</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Victor:label')"/>
+            <value>Victor</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Viola:label')"/>
+            <value>Viola</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Vulkan:label')"/>
+            <value>Vulkan</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Wallace:label')"/>
+            <value>Wallace</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Warhol:label')"/>
+            <value>Warhol</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Wilberforce:label')"/>
+            <value>Wilberforce</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Willow:label')"/>
+            <value>Willow</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Willow_and_Wally:label')"/>
+            <value>Willow_and_Wally</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Willow_and_Warrior:label')"/>
+            <value>Willow_and_Warrior</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Willow_2:label')"/>
+            <value>Willow_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Winston_-_adolescent:label')"/>
+            <value>Winston_-_adolescent</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Winston_2:label')"/>
+            <value>Winston_2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Wizard:label')"/>
+            <value>Wizard</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Xylon:label')"/>
+            <value>Xylon</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Yana:label')"/>
+            <value>Yana</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Zeus_flanged:label')"/>
+            <value>Zeus_flanged</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/Full-Follow/observation/party_member_2/Zeus_unflanged:label')"/>
+            <value>Zeus_unflanged</value>
+          </item>
+        </select1>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>

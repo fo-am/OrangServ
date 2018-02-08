@@ -1,0 +1,2354 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Full Follow</h:title>
+    <model>
+      <instance>
+        <data id="build_Full-Follow_1517842177">
+          <meta>
+            <instanceID/>
+          </meta>
+          <setup_follow>
+            <today/>
+            <start_time_date/>
+            <orangutan_name/>
+            <Infant_name/>
+            <observer_1/>
+            <observer_2/>
+            <observer_3/>
+            <follow_type/>
+          </setup_follow>
+          <observation jr:template="">
+            <time_start/>
+            <location>
+              <location_automatic/>
+              <latitude_manual/>
+              <longitude_manual/>
+            </location>
+            <time_end/>
+          </observation>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/setup_follow:label">
+            <value>Setup a follow</value>
+          </text>
+          <text id="/data/setup_follow/start_time_date:label">
+            <value>Start Time and Date</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:label">
+            <value>Orangutan Name</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option0">
+            <value>ADF290409</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option1">
+            <value>ADM130909</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option2">
+            <value>ADOLESCENT  FEMALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option3">
+            <value>ADOLESCENT  MALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option4">
+            <value>ADULT  FEMALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option5">
+            <value>Alonso</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option6">
+            <value>Alui</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option7">
+            <value>Amazon</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option8">
+            <value>Apollo</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option9">
+            <value>Archimedes</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option10">
+            <value>Archimedes  3</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option11">
+            <value>Archimedes  4</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option12">
+            <value>Aristotle</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option13">
+            <value>Aya</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option14">
+            <value>Baldur</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option15">
+            <value>Barita</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option16">
+            <value>Beethoven</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option17">
+            <value>Bengy  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option18">
+            <value>Bengy  - unflanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option19">
+            <value>Bengy  1</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option20">
+            <value>Bengy  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option21">
+            <value>Bengy  3</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option22">
+            <value>Bengy  4</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option23">
+            <value>Bengy  5</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option24">
+            <value>Benjol</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option25">
+            <value>Chopin</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option26">
+            <value>Claudius</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option27">
+            <value>Cleo  + Chivers</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option28">
+            <value>Cleo  + Chuck</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option29">
+            <value>Cleo  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option30">
+            <value>Cleo  3</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option31">
+            <value>Cleopatra</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option32">
+            <value>D</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option33">
+            <value>Doyle</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option34">
+            <value>Drake</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option35">
+            <value>Einstein</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option36">
+            <value>Einstein  (Orson)</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option37">
+            <value>Ella</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option38">
+            <value>Ella  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option39">
+            <value>Eosah</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option40">
+            <value>Feb  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option41">
+            <value>Feb  - adult</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option42">
+            <value>Feb  + Fio</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option43">
+            <value>Fenser</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option44">
+            <value>FLANGED  MALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option45">
+            <value>FM061206</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option46">
+            <value>FM061212</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option47">
+            <value>FM0701</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option48">
+            <value>FM070110</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option49">
+            <value>FM070113</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option50">
+            <value>FM090512</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option51">
+            <value>FM091112</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option52">
+            <value>FM101013</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option53">
+            <value>FM110213</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option54">
+            <value>FM1106</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option55">
+            <value>FM120411</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option56">
+            <value>FM1302</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option57">
+            <value>FM1706</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option58">
+            <value>FM191012</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option59">
+            <value>FM2203</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option60">
+            <value>FM220311</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option61">
+            <value>FM221212</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option62">
+            <value>FM23012013</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option63">
+            <value>FM230311</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option64">
+            <value>FM2311</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option65">
+            <value>FM240208</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option66">
+            <value>FM2507</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option67">
+            <value>Fossey</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option68">
+            <value>Franky</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option69">
+            <value>Galileo</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option70">
+            <value>Geminus</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option71">
+            <value>Genghis</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option72">
+            <value>Georgia  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option73">
+            <value>Goliath</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option74">
+            <value>Goliath2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option75">
+            <value>Gollum</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option76">
+            <value>Golly</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option77">
+            <value>Gracia</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option78">
+            <value>Gracia  + Gara</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option79">
+            <value>Gracia  + Georgia</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option80">
+            <value>Gracia  + Gretel</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option81">
+            <value>Gretel  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option82">
+            <value>Hades</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option83">
+            <value>Hades  flanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option84">
+            <value>Hamlet</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option85">
+            <value>Hannibal</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option86">
+            <value>Hector</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option87">
+            <value>Hengky</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option88">
+            <value>Hengky  - Injured</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option89">
+            <value>Henry</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option90">
+            <value>Indah</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option91">
+            <value>Indah  + Ima</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option92">
+            <value>Indah  + Indy</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option93">
+            <value>Indah  + Isabella</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option94">
+            <value>Indah  + unnamed infant</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option95">
+            <value>Indy  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option96">
+            <value>Indy  - adult</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option97">
+            <value>Indy  + Icarus</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option98">
+            <value>Isabella  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option99">
+            <value>Janus</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option100">
+            <value>Juliet</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option101">
+            <value>Juno</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option102">
+            <value>Jupiter</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option103">
+            <value>Kandil</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option104">
+            <value>Kay</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option105">
+            <value>Kay  Fanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option106">
+            <value>Keto</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option107">
+            <value>Kino</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option108">
+            <value>Leonardo  - flanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option109">
+            <value>Leonardo  - unflanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option110">
+            <value>Leony</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option111">
+            <value>Leto</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option112">
+            <value>Lipstik</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option113">
+            <value>Lipstik  + Lenard</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option114">
+            <value>Louis</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option115">
+            <value>Marvin</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option116">
+            <value>Mozart  - flanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option117">
+            <value>Mozart  - unflanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option118">
+            <value>Napoleon</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option119">
+            <value>Neptune</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option120">
+            <value>Nero</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option121">
+            <value>Newton</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option122">
+            <value>NLF030206</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option123">
+            <value>Nugget</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option124">
+            <value>Oberon</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option125">
+            <value>Oscar</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option126">
+            <value>Othello</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option127">
+            <value>Peter  Pan</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option128">
+            <value>Picasso</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option129">
+            <value>Picasso  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option130">
+            <value>Pluto</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option131">
+            <value>Potret</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option132">
+            <value>Qu</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option133">
+            <value>Richard</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option134">
+            <value>Romeo</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option135">
+            <value>Romeo  FL</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option136">
+            <value>SAF041112</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option137">
+            <value>SAF110913</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option138">
+            <value>SAF130414</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option139">
+            <value>SAF130909</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option140">
+            <value>SAF231107</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option141">
+            <value>SAF231211</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option142">
+            <value>Salvador</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option143">
+            <value>Salvador  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option144">
+            <value>Shima</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option145">
+            <value>Shogun</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option146">
+            <value>t</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option147">
+            <value>Teresia</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option148">
+            <value>Teresia  + Timi</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option149">
+            <value>Teresia  + Trevor</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option150">
+            <value>Teslor</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option151">
+            <value>Thor</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option152">
+            <value>Thor  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option153">
+            <value>Timi  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option154">
+            <value>Timi  - adult</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option155">
+            <value>Titan</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option156">
+            <value>Tyson</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option157">
+            <value>UFM050511</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option158">
+            <value>UFM060209</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option159">
+            <value>UFM061013</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option160">
+            <value>UFM070311</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option161">
+            <value>UFM070912</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option162">
+            <value>UFM130212</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option163">
+            <value>UFM140710</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option164">
+            <value>UFM161205</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option165">
+            <value>UFM200306</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option166">
+            <value>UFM230710</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option167">
+            <value>UFM281104</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option168">
+            <value>Ulysses</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option169">
+            <value>UN0307</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option170">
+            <value>UN0704</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option171">
+            <value>UN200809</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option172">
+            <value>UN290409</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option173">
+            <value>UNFLANGED  MALE</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option174">
+            <value>UNKNOWN  INDIVIDUAL</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option175">
+            <value>Urigella</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option176">
+            <value>Victor</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option177">
+            <value>Viola</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option178">
+            <value>Vulkan</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option179">
+            <value>Wallace</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option180">
+            <value>Warhol</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option181">
+            <value>Wilberforce</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option182">
+            <value>Willow</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option183">
+            <value>Willow  + Wally</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option184">
+            <value>Willow  + Warrior</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option185">
+            <value>Willow  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option186">
+            <value>Winston  - adolescent</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option187">
+            <value>Winston  2</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option188">
+            <value>Wizard</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option189">
+            <value>Xylon</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option190">
+            <value>Yana</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option191">
+            <value>Zeus  flanged</value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option192">
+            <value>Zeus  unflanged</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:label">
+            <value>Infant name</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option0">
+            <value>Bintan - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option1">
+            <value>Chivers  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option2">
+            <value>Chuck  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option3">
+            <value>Fio  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option4">
+            <value>Gara</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option5">
+            <value>Georgia  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option6">
+            <value>Gretel  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option7">
+            <value>Icarus  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option8">
+            <value>Ima  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option9">
+            <value>Indy  - Infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option10">
+            <value>Isabella  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option11">
+            <value>Joy</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option12">
+            <value>Lenard</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option13">
+            <value>NONE</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option14">
+            <value>Timi  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option15">
+            <value>Trevor  - infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option16">
+            <value>Unnamed  infant</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option17">
+            <value>Wally</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option18">
+            <value>Warrior</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option19">
+            <value>Winston</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option20">
+            <value>Yoko</value>
+          </text>
+          <text id="/data/setup_follow/observer_1:label">
+            <value>Observer one</value>
+          </text>
+          <text id="/data/setup_follow/observer_2:label">
+            <value>Observer two</value>
+          </text>
+          <text id="/data/setup_follow/observer_3:label">
+            <value>Observer three</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:label">
+            <value>Follow Type</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option0">
+            <value>Nest-to-Nest</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option1">
+            <value>Found, to nest</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option2">
+            <value>From nest - lost</value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option3">
+            <value>Found, then lost</value>
+          </text>
+          <text id="/data/observation:label">
+            <value>Five Minute Observation</value>
+          </text>
+          <text id="/data/observation/location:label">
+            <value>Location of </value>
+          </text>
+          <text id="/data/observation/location/location_automatic:label">
+            <value>Location</value>
+          </text>
+          <text id="/data/observation/location/latitude_manual:label">
+            <value>Latitude if GPS does not work</value>
+          </text>
+          <text id="/data/observation/location/longitude_manual:label">
+            <value>Longitude manual if GPS does not work</value>
+          </text>
+        </translation>
+        <translation lang="Indonesian">
+          <text id="/data/setup_follow:label">
+            <value>mengekori</value>
+          </text>
+          <text id="/data/setup_follow/start_time_date:label">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:label">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option0">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option1">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option2">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option3">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option4">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option5">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option6">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option7">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option8">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option9">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option10">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option11">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option12">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option13">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option14">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option15">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option16">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option17">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option18">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option19">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option20">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option21">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option22">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option23">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option24">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option25">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option26">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option27">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option28">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option29">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option30">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option31">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option32">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option33">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option34">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option35">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option36">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option37">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option38">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option39">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option40">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option41">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option42">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option43">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option44">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option45">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option46">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option47">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option48">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option49">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option50">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option51">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option52">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option53">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option54">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option55">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option56">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option57">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option58">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option59">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option60">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option61">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option62">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option63">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option64">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option65">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option66">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option67">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option68">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option69">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option70">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option71">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option72">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option73">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option74">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option75">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option76">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option77">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option78">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option79">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option80">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option81">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option82">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option83">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option84">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option85">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option86">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option87">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option88">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option89">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option90">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option91">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option92">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option93">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option94">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option95">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option96">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option97">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option98">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option99">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option100">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option101">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option102">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option103">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option104">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option105">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option106">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option107">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option108">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option109">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option110">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option111">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option112">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option113">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option114">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option115">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option116">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option117">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option118">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option119">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option120">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option121">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option122">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option123">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option124">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option125">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option126">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option127">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option128">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option129">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option130">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option131">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option132">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option133">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option134">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option135">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option136">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option137">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option138">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option139">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option140">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option141">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option142">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option143">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option144">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option145">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option146">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option147">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option148">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option149">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option150">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option151">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option152">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option153">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option154">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option155">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option156">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option157">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option158">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option159">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option160">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option161">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option162">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option163">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option164">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option165">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option166">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option167">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option168">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option169">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option170">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option171">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option172">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option173">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option174">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option175">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option176">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option177">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option178">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option179">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option180">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option181">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option182">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option183">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option184">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option185">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option186">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option187">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option188">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option189">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option190">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option191">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/orangutan_name:option192">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:label">
+            <value>bayi</value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option0">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option1">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option2">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option3">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option4">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option5">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option6">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option7">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option8">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option9">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option10">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option11">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option12">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option13">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option14">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option15">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option16">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option17">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option18">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option19">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/Infant_name:option20">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/observer_1:label">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/observer_2:label">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/observer_3:label">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/follow_type:label">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option0">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option1">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option2">
+            <value></value>
+          </text>
+          <text id="/data/setup_follow/follow_type:option3">
+            <value></value>
+          </text>
+          <text id="/data/observation:label">
+            <value></value>
+          </text>
+          <text id="/data/observation/location:label">
+            <value></value>
+          </text>
+          <text id="/data/observation/location/location_automatic:label">
+            <value></value>
+          </text>
+          <text id="/data/observation/location/latitude_manual:label">
+            <value></value>
+          </text>
+          <text id="/data/observation/location/longitude_manual:label">
+            <value></value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/setup_follow/today" type="date" jr:preload="date" jr:preloadParams="today"/>
+      <bind nodeset="/data/setup_follow/start_time_date" type="dateTime"/>
+      <bind nodeset="/data/setup_follow/orangutan_name" type="select1" required="true()"/>
+      <bind nodeset="/data/setup_follow/Infant_name" type="select1"/>
+      <bind nodeset="/data/setup_follow/observer_1" type="string" required="true()"/>
+      <bind nodeset="/data/setup_follow/observer_2" type="string"/>
+      <bind nodeset="/data/setup_follow/observer_3" type="string"/>
+      <bind nodeset="/data/setup_follow/follow_type" type="select1"/>
+      <bind nodeset="/data/observation/time_start" type="dateTime" jr:preload="timestamp" jr:preloadParams="start"/>
+      <bind nodeset="/data/observation/location/location_automatic" type="geopoint"/>
+      <bind nodeset="/data/observation/location/latitude_manual" type="string"/>
+      <bind nodeset="/data/observation/location/longitude_manual" type="string"/>
+      <bind nodeset="/data/observation/time_end" type="dateTime" jr:preload="timestamp" jr:preloadParams="end"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/setup_follow:label')"/>
+      <input ref="/data/setup_follow/start_time_date">
+        <label ref="jr:itext('/data/setup_follow/start_time_date:label')"/>
+      </input>
+      <select1 ref="/data/setup_follow/orangutan_name" appearance="minimal">
+        <label ref="jr:itext('/data/setup_follow/orangutan_name:label')"/>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option0')"/>
+          <value>ADF290409</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option1')"/>
+          <value>ADM130909</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option2')"/>
+          <value>ADOLESCENT_FEMALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option3')"/>
+          <value>ADOLESCENT_MALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option4')"/>
+          <value>ADULT_FEMALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option5')"/>
+          <value>Alonso</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option6')"/>
+          <value>Alui</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option7')"/>
+          <value>Amazon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option8')"/>
+          <value>Apollo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option9')"/>
+          <value>Archimedes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option10')"/>
+          <value>Archimedes_3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option11')"/>
+          <value>Archimedes_4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option12')"/>
+          <value>Aristotle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option13')"/>
+          <value>Aya</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option14')"/>
+          <value>Baldur</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option15')"/>
+          <value>Barita</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option16')"/>
+          <value>Beethoven</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option17')"/>
+          <value>Bengy_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option18')"/>
+          <value>Bengy_-_unflanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option19')"/>
+          <value>Bengy_1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option20')"/>
+          <value>Bengy_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option21')"/>
+          <value>Bengy_3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option22')"/>
+          <value>Bengy_4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option23')"/>
+          <value>Bengy_5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option24')"/>
+          <value>Benjol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option25')"/>
+          <value>Chopin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option26')"/>
+          <value>Claudius</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option27')"/>
+          <value>Cleo_and_Chivers</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option28')"/>
+          <value>Cleo_and_Chuck</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option29')"/>
+          <value>Cleo_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option30')"/>
+          <value>Cleo_3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option31')"/>
+          <value>Cleopatra</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option32')"/>
+          <value>D</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option33')"/>
+          <value>Doyle</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option34')"/>
+          <value>Drake</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option35')"/>
+          <value>Einstein</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option36')"/>
+          <value>Einstein_Orson</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option37')"/>
+          <value>Ella</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option38')"/>
+          <value>Ella_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option39')"/>
+          <value>Eosah</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option40')"/>
+          <value>Feb_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option41')"/>
+          <value>Feb_-_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option42')"/>
+          <value>Feb_and_Fio</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option43')"/>
+          <value>Fenser</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option44')"/>
+          <value>FLANGED_MALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option45')"/>
+          <value>FM061206</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option46')"/>
+          <value>FM061212</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option47')"/>
+          <value>FM0701</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option48')"/>
+          <value>FM070110</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option49')"/>
+          <value>FM070113</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option50')"/>
+          <value>FM090512</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option51')"/>
+          <value>FM091112</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option52')"/>
+          <value>FM101013</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option53')"/>
+          <value>FM110213</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option54')"/>
+          <value>FM1106</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option55')"/>
+          <value>FM120411</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option56')"/>
+          <value>FM1302</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option57')"/>
+          <value>FM1706</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option58')"/>
+          <value>FM191012</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option59')"/>
+          <value>FM2203</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option60')"/>
+          <value>FM220311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option61')"/>
+          <value>FM221212</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option62')"/>
+          <value>FM23012013</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option63')"/>
+          <value>FM230311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option64')"/>
+          <value>FM2311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option65')"/>
+          <value>FM240208</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option66')"/>
+          <value>FM2507</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option67')"/>
+          <value>Fossey</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option68')"/>
+          <value>Franky</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option69')"/>
+          <value>Galileo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option70')"/>
+          <value>Geminus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option71')"/>
+          <value>Genghis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option72')"/>
+          <value>Georgia_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option73')"/>
+          <value>Goliath</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option74')"/>
+          <value>Goliath2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option75')"/>
+          <value>Gollum</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option76')"/>
+          <value>Golly</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option77')"/>
+          <value>Gracia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option78')"/>
+          <value>Gracia_and_Gara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option79')"/>
+          <value>Gracia_and_Georgia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option80')"/>
+          <value>Gracia_and_Gretel</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option81')"/>
+          <value>Gretel_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option82')"/>
+          <value>Hades</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option83')"/>
+          <value>Hades_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option84')"/>
+          <value>Hamlet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option85')"/>
+          <value>Hannibal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option86')"/>
+          <value>Hector</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option87')"/>
+          <value>Hengky</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option88')"/>
+          <value>Hengky_-_Injured</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option89')"/>
+          <value>Henry</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option90')"/>
+          <value>Indah</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option91')"/>
+          <value>Indah_and_Ima</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option92')"/>
+          <value>Indah_and_Indy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option93')"/>
+          <value>Indah_and_Isabella</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option94')"/>
+          <value>Indah_and_unnamed_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option95')"/>
+          <value>Indy_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option96')"/>
+          <value>Indy_-_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option97')"/>
+          <value>Indy_and_Icarus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option98')"/>
+          <value>Isabella_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option99')"/>
+          <value>Janus</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option100')"/>
+          <value>Juliet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option101')"/>
+          <value>Juno</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option102')"/>
+          <value>Jupiter</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option103')"/>
+          <value>Kandil</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option104')"/>
+          <value>Kay</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option105')"/>
+          <value>Kay_Fanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option106')"/>
+          <value>Keto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option107')"/>
+          <value>Kino</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option108')"/>
+          <value>Leonardo_-_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option109')"/>
+          <value>Leonardo_-_unflanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option110')"/>
+          <value>Leony</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option111')"/>
+          <value>Leto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option112')"/>
+          <value>Lipstik</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option113')"/>
+          <value>Lipstik_and_Lenard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option114')"/>
+          <value>Louis</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option115')"/>
+          <value>Marvin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option116')"/>
+          <value>Mozart_-_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option117')"/>
+          <value>Mozart_-_unflanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option118')"/>
+          <value>Napoleon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option119')"/>
+          <value>Neptune</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option120')"/>
+          <value>Nero</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option121')"/>
+          <value>Newton</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option122')"/>
+          <value>NLF030206</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option123')"/>
+          <value>Nugget</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option124')"/>
+          <value>Oberon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option125')"/>
+          <value>Oscar</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option126')"/>
+          <value>Othello</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option127')"/>
+          <value>Peter_Pan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option128')"/>
+          <value>Picasso</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option129')"/>
+          <value>Picasso_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option130')"/>
+          <value>Pluto</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option131')"/>
+          <value>Potret</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option132')"/>
+          <value>Qu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option133')"/>
+          <value>Richard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option134')"/>
+          <value>Romeo</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option135')"/>
+          <value>Romeo_FL</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option136')"/>
+          <value>SAF041112</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option137')"/>
+          <value>SAF110913</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option138')"/>
+          <value>SAF130414</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option139')"/>
+          <value>SAF130909</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option140')"/>
+          <value>SAF231107</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option141')"/>
+          <value>SAF231211</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option142')"/>
+          <value>Salvador</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option143')"/>
+          <value>Salvador_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option144')"/>
+          <value>Shima</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option145')"/>
+          <value>Shogun</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option146')"/>
+          <value>t</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option147')"/>
+          <value>Teresia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option148')"/>
+          <value>Teresia_and_Timi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option149')"/>
+          <value>Teresia_and_Trevor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option150')"/>
+          <value>Teslor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option151')"/>
+          <value>Thor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option152')"/>
+          <value>Thor_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option153')"/>
+          <value>Timi_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option154')"/>
+          <value>Timi_-_adult</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option155')"/>
+          <value>Titan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option156')"/>
+          <value>Tyson</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option157')"/>
+          <value>UFM050511</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option158')"/>
+          <value>UFM060209</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option159')"/>
+          <value>UFM061013</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option160')"/>
+          <value>UFM070311</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option161')"/>
+          <value>UFM070912</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option162')"/>
+          <value>UFM130212</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option163')"/>
+          <value>UFM140710</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option164')"/>
+          <value>UFM161205</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option165')"/>
+          <value>UFM200306</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option166')"/>
+          <value>UFM230710</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option167')"/>
+          <value>UFM281104</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option168')"/>
+          <value>Ulysses</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option169')"/>
+          <value>UN0307</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option170')"/>
+          <value>UN0704</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option171')"/>
+          <value>UN200809</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option172')"/>
+          <value>UN290409</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option173')"/>
+          <value>UNFLANGED_MALE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option174')"/>
+          <value>UNKNOWN_INDIVIDUAL</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option175')"/>
+          <value>Urigella</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option176')"/>
+          <value>Victor</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option177')"/>
+          <value>Viola</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option178')"/>
+          <value>Vulkan</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option179')"/>
+          <value>Wallace</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option180')"/>
+          <value>Warhol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option181')"/>
+          <value>Wilberforce</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option182')"/>
+          <value>Willow</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option183')"/>
+          <value>Willow_and_Wally</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option184')"/>
+          <value>Willow_and_Warrior</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option185')"/>
+          <value>Willow_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option186')"/>
+          <value>Winston_-_adolescent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option187')"/>
+          <value>Winston_2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option188')"/>
+          <value>Wizard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option189')"/>
+          <value>Xylon</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option190')"/>
+          <value>Yana</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option191')"/>
+          <value>Zeus_flanged</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/orangutan_name:option192')"/>
+          <value>Zeus_unflanged</value>
+        </item>
+      </select1>
+      <select1 ref="/data/setup_follow/Infant_name" appearance="minimal">
+        <label ref="jr:itext('/data/setup_follow/Infant_name:label')"/>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option0')"/>
+          <value>Bintan_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option1')"/>
+          <value>Chivers_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option2')"/>
+          <value>Chuck_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option3')"/>
+          <value>Fio_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option4')"/>
+          <value>Gara</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option5')"/>
+          <value>Georgia_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option6')"/>
+          <value>Gretel_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option7')"/>
+          <value>Icarus_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option8')"/>
+          <value>Ima_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option9')"/>
+          <value>Indy_-_Infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option10')"/>
+          <value>Isabella_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option11')"/>
+          <value>Joy</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option12')"/>
+          <value>Lenard</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option13')"/>
+          <value>NONE</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option14')"/>
+          <value>Timi_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option15')"/>
+          <value>Trevor_-_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option16')"/>
+          <value>Unnamed_infant</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option17')"/>
+          <value>Wally</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option18')"/>
+          <value>Warrior</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option19')"/>
+          <value>Winston</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/Infant_name:option20')"/>
+          <value>Yoko</value>
+        </item>
+      </select1>
+      <input ref="/data/setup_follow/observer_1">
+        <label ref="jr:itext('/data/setup_follow/observer_1:label')"/>
+      </input>
+      <input ref="/data/setup_follow/observer_2">
+        <label ref="jr:itext('/data/setup_follow/observer_2:label')"/>
+      </input>
+      <input ref="/data/setup_follow/observer_3">
+        <label ref="jr:itext('/data/setup_follow/observer_3:label')"/>
+      </input>
+      <select1 ref="/data/setup_follow/follow_type" appearance="minimal">
+        <label ref="jr:itext('/data/setup_follow/follow_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/follow_type:option0')"/>
+          <value>Nest-to-Nest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/follow_type:option1')"/>
+          <value>Found_to_nest</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/follow_type:option2')"/>
+          <value>From_nest_lost</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/setup_follow/follow_type:option3')"/>
+          <value>Found_then_lost</value>
+        </item>
+      </select1>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/observation:label')"/>
+      <repeat nodeset="/data/observation">
+        <group appearance="field-list">
+          <label ref="jr:itext('/data/observation/location:label')"/>
+          <input ref="/data/observation/location/location_automatic">
+            <label ref="jr:itext('/data/observation/location/location_automatic:label')"/>
+          </input>
+          <input ref="/data/observation/location/latitude_manual">
+            <label ref="jr:itext('/data/observation/location/latitude_manual:label')"/>
+          </input>
+          <input ref="/data/observation/location/longitude_manual">
+            <label ref="jr:itext('/data/observation/location/longitude_manual:label')"/>
+          </input>
+        </group>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>
